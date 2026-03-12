@@ -1,0 +1,2 @@
+# Odoo POS Importer dependencies
+pytz>=2024.1
