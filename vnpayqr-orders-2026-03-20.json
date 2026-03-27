@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "query_date": "2026-03-20",
+    "timezone": "Asia/Ho_Chi_Minh",
+    "exported_at": "2026-03-20T14:48:42Z",
+    "total_orders": 3,
+    "total_amount": 55000.0,
+    "total_tax": 4073.0,
+    "total_paid": 55000.0
+  },
+  "orders": [
+    {
+      "id": 175919,
+      "name": "S02/142942",
+      "date_order": "2026-03-20T05:22:43Z",
+      "pos_reference": "Order 00735-001-0055",
+      "partner_id": 950,
+      "partner_name": "Khách lẻ",
+      "state": "done",
+      "amount_total": 15000.0,
+      "amount_tax": 1111.0,
+      "amount_paid": 15000.0,
+      "amount_return": 0.0,
+      "user_id": 22,
+      "user_name": "User POS CN2",
+      "session_id": 735,
+      "session_name": "POS/00735",
+      "lines": [
+        {
+          "id": 291566,
+          "product_id": 2498,
+          "product_code": "D_SD_003",
+          "product_name": "Aquafina 500ml",
+          "name": "CN2/235893",
+          "qty": 1.0,
+          "price_unit": 15000.0,
+          "discount": 0.0,
+          "price_subtotal": 13889.0,
+          "price_subtotal_incl": 15000.0,
+          "uom_id": 55,
+          "uom_name": "phần"
+        }
+      ],
+      "payments": [
+        {
+          "id": 175615,
+          "name": false,
+          "amount": 15000.0,
+          "payment_method_id": 40,
+          "payment_method_name": "VNPayQR",
+          "payment_date": "2026-03-20 05:22:43",
+          "is_change": false
+        }
+      ]
+    },
+    {
+      "id": 175933,
+      "name": "S02/142956",
+      "date_order": "2026-03-20T06:07:19Z",
+      "pos_reference": "Order 00735-001-0067",
+      "partner_id": 950,
+      "partner_name": "Khách lẻ",
+      "state": "done",
+      "amount_total": 20000.0,
+      "amount_tax": 1481.0,
+      "amount_paid": 20000.0,
+      "amount_return": 0.0,
+      "user_id": 22,
+      "user_name": "User POS CN2",
+      "session_id": 735,
+      "session_name": "POS/00735",
+      "lines": [
+        {
+          "id": 291587,
+          "product_id": 2550,
+          "product_code": "D_SD_006",
+          "product_name": "Coca Cola Zero",
+          "name": "CN2/235914",
+          "qty": 1.0,
+          "price_unit": 20000.0,
+          "discount": 0.0,
+          "price_subtotal": 18519.0,
+          "price_subtotal_incl": 20000.0,
+          "uom_id": 167,
+          "uom_name": "chai"
+        }
+      ],
+      "payments": [
+        {
+          "id": 175631,
+          "name": false,
+          "amount": 20000.0,
+          "payment_method_id": 40,
+          "payment_method_name": "VNPayQR",
+          "payment_date": "2026-03-20 06:07:19",
+          "is_change": false
+        }
+      ]
+    },
+    {
+      "id": 175959,
+      "name": "S02/142982",
+      "date_order": "2026-03-20T11:05:42Z",
+      "pos_reference": "Order 00735-001-0032",
+      "partner_id": 950,
+      "partner_name": "Khách lẻ",
+      "state": "done",
+      "amount_total": 20000.0,
+      "amount_tax": 1481.0,
+      "amount_paid": 20000.0,
+      "amount_return": 0.0,
+      "user_id": 22,
+      "user_name": "User POS CN2",
+      "session_id": 735,
+      "session_name": "POS/00735",
+      "lines": [
+        {
+          "id": 291624,
+          "product_id": 2550,
+          "product_code": "D_SD_006",
+          "product_name": "Coca Cola Zero",
+          "name": "CN2/235951",
+          "qty": 1.0,
+          "price_unit": 20000.0,
+          "discount": 0.0,
+          "price_subtotal": 18519.0,
+          "price_subtotal_incl": 20000.0,
+          "uom_id": 167,
+          "uom_name": "chai"
+        }
+      ],
+      "payments": [
+        {
+          "id": 175657,
+          "name": false,
+          "amount": 20000.0,
+          "payment_method_id": 40,
+          "payment_method_name": "VNPayQR",
+          "payment_date": "2026-03-20 11:05:42",
+          "is_change": false
+        }
+      ]
+    }
+  ]
+}

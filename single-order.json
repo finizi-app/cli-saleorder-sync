@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "query_date": "2026-03-19",
+    "timezone": "Asia/Ho_Chi_Minh",
+    "exported_at": "2026-03-19T16:51:59Z",
+    "total_orders": 102,
+    "total_amount": 4750000.0,
+    "total_tax": 356257.0,
+    "total_paid": 4750000.0
+  },
+  "orders": [
+    {
+      "id": 175858,
+      "name": "S02/142882",
+      "date_order": "2026-03-19T08:44:20Z",
+      "pos_reference": "Order 00734-001-0084",
+      "partner_id": 950,
+      "partner_name": "Khách lẻ",
+      "state": "invoiced",
+      "amount_total": 25000.0,
+      "amount_tax": 1852.0,
+      "amount_paid": 25000.0,
+      "amount_return": 0.0,
+      "user_id": 22,
+      "user_name": "User POS CN2",
+      "session_id": 734,
+      "session_name": "POS/00734",
+      "lines": [
+        {
+          "id": 291480,
+          "product_id": 2481,
+          "product_code": "F_BM_006",
+          "product_name": "(A5) Bánh Mì Que Pate Chà Bông",
+          "name": "CN2/235807",
+          "qty": 1.0,
+          "price_unit": 25000.0,
+          "discount": 0.0,
+          "price_subtotal": 23148.0,
+          "price_subtotal_incl": 25000.0,
+          "uom_id": 55,
+          "uom_name": "phần"
+        }
+      ],
+      "payments": [
+        {
+          "id": 175535,
+          "name": false,
+          "amount": 25000.0,
+          "payment_method_id": 53,
+          "payment_method_name": "VNPAY",
+          "payment_date": "2026-03-19 08:44:20",
+          "is_change": false
+        }
+      ]
+    }
+  ]
+}

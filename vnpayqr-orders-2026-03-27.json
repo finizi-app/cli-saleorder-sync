@@ -1,0 +1,261 @@
+{
+  "metadata": {
+    "query_date": "2026-03-27",
+    "timezone": "Asia/Ho_Chi_Minh",
+    "exported_at": "2026-03-27T15:45:24Z",
+    "total_orders": 5,
+    "total_amount": 218000.0,
+    "total_tax": 13926.0,
+    "total_paid": 218000.0
+  },
+  "orders": [
+    {
+      "id": 176374,
+      "name": "S02/143393",
+      "date_order": "2026-03-27T00:12:36Z",
+      "pos_reference": "Order 00742-001-0006",
+      "partner_id": 950,
+      "partner_name": "Khách lẻ",
+      "state": "invoiced",
+      "amount_total": 45000.0,
+      "amount_tax": 3333.0,
+      "amount_paid": 45000.0,
+      "amount_return": 0.0,
+      "user_id": 22,
+      "user_name": "User POS CN2",
+      "session_id": 742,
+      "session_name": "POS/00742",
+      "lines": [
+        {
+          "id": 292287,
+          "product_id": 2487,
+          "product_code": "F_XOI_002",
+          "product_name": "(B2) Xôi Gà Xé",
+          "name": "CN2/236614",
+          "qty": 1.0,
+          "price_unit": 45000.0,
+          "discount": 0.0,
+          "price_subtotal": 41667.0,
+          "price_subtotal_incl": 45000.0,
+          "uom_id": 55,
+          "uom_name": "phần"
+        }
+      ],
+      "payments": [
+        {
+          "id": 176133,
+          "name": false,
+          "amount": 45000.0,
+          "payment_method_id": 40,
+          "payment_method_name": "VNPayQR",
+          "payment_date": "2026-03-27 00:12:36",
+          "is_change": false
+        }
+      ]
+    },
+    {
+      "id": 176403,
+      "name": "S02/143422",
+      "date_order": "2026-03-27T05:09:09Z",
+      "pos_reference": "Order 00742-001-0021",
+      "partner_id": 950,
+      "partner_name": "Khách lẻ",
+      "state": "invoiced",
+      "amount_total": 69000.0,
+      "amount_tax": 3630.0,
+      "amount_paid": 69000.0,
+      "amount_return": 0.0,
+      "user_id": 22,
+      "user_name": "User POS CN2",
+      "session_id": 742,
+      "session_name": "POS/00742",
+      "lines": [
+        {
+          "id": 292328,
+          "product_id": 2483,
+          "product_code": "F_BM_008",
+          "product_name": "(A10) Bánh Mì Xíu Mại",
+          "name": "CN2/236655",
+          "qty": 1.0,
+          "price_unit": 49000.0,
+          "discount": 0.0,
+          "price_subtotal": 45370.0,
+          "price_subtotal_incl": 49000.0,
+          "uom_id": 55,
+          "uom_name": "phần"
+        },
+        {
+          "id": 292329,
+          "product_id": 2500,
+          "product_code": "F_TOP_002",
+          "product_name": "Topping Trứng",
+          "name": "CN2/236656",
+          "qty": 2.0,
+          "price_unit": 10000.0,
+          "discount": 0.0,
+          "price_subtotal": 20000.0,
+          "price_subtotal_incl": 20000.0,
+          "uom_id": 55,
+          "uom_name": "phần"
+        }
+      ],
+      "payments": [
+        {
+          "id": 176162,
+          "name": false,
+          "amount": 69000.0,
+          "payment_method_id": 40,
+          "payment_method_name": "VNPayQR",
+          "payment_date": "2026-03-27 05:09:09",
+          "is_change": false
+        }
+      ]
+    },
+    {
+      "id": 176410,
+      "name": "S02/143429",
+      "date_order": "2026-03-27T05:55:45Z",
+      "pos_reference": "Order 00742-001-0025",
+      "partner_id": 950,
+      "partner_name": "Khách lẻ",
+      "state": "invoiced",
+      "amount_total": 45000.0,
+      "amount_tax": 3333.0,
+      "amount_paid": 45000.0,
+      "amount_return": 0.0,
+      "user_id": 22,
+      "user_name": "User POS CN2",
+      "session_id": 742,
+      "session_name": "POS/00742",
+      "lines": [
+        {
+          "id": 292339,
+          "product_id": 2545,
+          "product_code": "D_SD_005",
+          "product_name": "Nước tăng lực Redbull ( lon 250ml)",
+          "name": "CN2/236666",
+          "qty": 1.0,
+          "price_unit": 25000.0,
+          "discount": 0.0,
+          "price_subtotal": 23148.0,
+          "price_subtotal_incl": 25000.0,
+          "uom_id": 55,
+          "uom_name": "phần"
+        },
+        {
+          "id": 292340,
+          "product_id": 2550,
+          "product_code": "D_SD_006",
+          "product_name": "Coca Cola Zero",
+          "name": "CN2/236667",
+          "qty": 1.0,
+          "price_unit": 20000.0,
+          "discount": 0.0,
+          "price_subtotal": 18519.0,
+          "price_subtotal_incl": 20000.0,
+          "uom_id": 167,
+          "uom_name": "chai"
+        }
+      ],
+      "payments": [
+        {
+          "id": 176169,
+          "name": false,
+          "amount": 45000.0,
+          "payment_method_id": 40,
+          "payment_method_name": "VNPayQR",
+          "payment_date": "2026-03-27 05:55:45",
+          "is_change": false
+        }
+      ]
+    },
+    {
+      "id": 176439,
+      "name": "S02/143458",
+      "date_order": "2026-03-27T09:52:50Z",
+      "pos_reference": "Order 00742-001-0077",
+      "partner_id": 950,
+      "partner_name": "Khách lẻ",
+      "state": "invoiced",
+      "amount_total": 49000.0,
+      "amount_tax": 3630.0,
+      "amount_paid": 49000.0,
+      "amount_return": 0.0,
+      "user_id": 22,
+      "user_name": "User POS CN2",
+      "session_id": 742,
+      "session_name": "POS/00742",
+      "lines": [
+        {
+          "id": 292388,
+          "product_id": 2690,
+          "product_code": "F_MT_001",
+          "product_name": "(B3) Mì Trộn Xá Xíu",
+          "name": "CN2/236715",
+          "qty": 1.0,
+          "price_unit": 49000.0,
+          "discount": 0.0,
+          "price_subtotal": 45370.0,
+          "price_subtotal_incl": 49000.0,
+          "uom_id": 55,
+          "uom_name": "phần"
+        }
+      ],
+      "payments": [
+        {
+          "id": 176207,
+          "name": false,
+          "amount": 49000.0,
+          "payment_method_id": 40,
+          "payment_method_name": "VNPayQR",
+          "payment_date": "2026-03-27 09:52:50",
+          "is_change": false
+        }
+      ]
+    },
+    {
+      "id": 176442,
+      "name": "S02/143461",
+      "date_order": "2026-03-27T10:00:55Z",
+      "pos_reference": "Order 00742-001-0080",
+      "partner_id": 950,
+      "partner_name": "Khách lẻ",
+      "state": "invoiced",
+      "amount_total": 10000.0,
+      "amount_tax": 0.0,
+      "amount_paid": 10000.0,
+      "amount_return": 0.0,
+      "user_id": 22,
+      "user_name": "User POS CN2",
+      "session_id": 742,
+      "session_name": "POS/00742",
+      "lines": [
+        {
+          "id": 292391,
+          "product_id": 2504,
+          "product_code": "F_TOP_006",
+          "product_name": "Topping Xá Xíu",
+          "name": "CN2/236718",
+          "qty": 1.0,
+          "price_unit": 10000.0,
+          "discount": 0.0,
+          "price_subtotal": 10000.0,
+          "price_subtotal_incl": 10000.0,
+          "uom_id": 55,
+          "uom_name": "phần"
+        }
+      ],
+      "payments": [
+        {
+          "id": 176211,
+          "name": false,
+          "amount": 10000.0,
+          "payment_method_id": 40,
+          "payment_method_name": "VNPayQR",
+          "payment_date": "2026-03-27 10:00:55",
+          "is_change": false
+        }
+      ]
+    }
+  ]
+}

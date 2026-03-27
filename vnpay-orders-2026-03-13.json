@@ -1,0 +1,403 @@
+{
+  "metadata": {
+    "query_date": "2026-03-13",
+    "timezone": "Asia/Ho_Chi_Minh",
+    "exported_at": "2026-03-13T12:12:49Z",
+    "total_orders": 9,
+    "total_amount": 321000.0,
+    "total_tax": 26304.0,
+    "total_paid": 321000.0
+  },
+  "orders": [
+    {
+      "id": 175427,
+      "name": "S02/142454",
+      "date_order": "2026-03-13T09:42:29Z",
+      "pos_reference": "Order 00727-001-0084",
+      "partner_id": 950,
+      "partner_name": "Khách lẻ",
+      "state": "done",
+      "amount_total": 89000.0,
+      "amount_tax": 7434.0,
+      "amount_paid": 89000.0,
+      "amount_return": 0.0,
+      "user_id": 22,
+      "user_name": "User POS CN2",
+      "session_id": 727,
+      "session_name": "POS/00727",
+      "lines": [
+        {
+          "id": 290846,
+          "product_id": 2485,
+          "product_code": "F_BM_010",
+          "product_name": "(A9) Bánh Mì Gà Xé Bơ Tỏi",
+          "name": "CN2/235173",
+          "qty": 1.0,
+          "price_unit": 39000.0,
+          "discount": 0.0,
+          "price_subtotal": 36111.0,
+          "price_subtotal_incl": 39000.0
+        },
+        {
+          "id": 290847,
+          "product_id": 2546,
+          "product_code": "D_BIA_001",
+          "product_name": "Bia Sài Gòn Special ( lon 330ml)",
+          "name": "CN2/235174",
+          "qty": 2.0,
+          "price_unit": 25000.0,
+          "discount": 0.0,
+          "price_subtotal": 45455.0,
+          "price_subtotal_incl": 50000.0
+        }
+      ],
+      "payments": [
+        {
+          "id": 175052,
+          "name": false,
+          "amount": 89000.0,
+          "payment_method_id": 53,
+          "payment_method_name": "VNPAY",
+          "payment_date": "2026-03-13 09:42:29",
+          "is_change": false
+        }
+      ]
+    },
+    {
+      "id": 175428,
+      "name": "S02/142455",
+      "date_order": "2026-03-13T09:43:37Z",
+      "pos_reference": "Order 00727-001-0085",
+      "partner_id": 950,
+      "partner_name": "Khách lẻ",
+      "state": "done",
+      "amount_total": 39000.0,
+      "amount_tax": 2889.0,
+      "amount_paid": 39000.0,
+      "amount_return": 0.0,
+      "user_id": 22,
+      "user_name": "User POS CN2",
+      "session_id": 727,
+      "session_name": "POS/00727",
+      "lines": [
+        {
+          "id": 290848,
+          "product_id": 2484,
+          "product_code": "F_BM_009",
+          "product_name": "(A6) Bánh Mì Xá Xíu",
+          "name": "CN2/235175",
+          "qty": 1.0,
+          "price_unit": 39000.0,
+          "discount": 0.0,
+          "price_subtotal": 36111.0,
+          "price_subtotal_incl": 39000.0
+        }
+      ],
+      "payments": [
+        {
+          "id": 175053,
+          "name": false,
+          "amount": 39000.0,
+          "payment_method_id": 53,
+          "payment_method_name": "VNPAY",
+          "payment_date": "2026-03-13 09:43:37",
+          "is_change": false
+        }
+      ]
+    },
+    {
+      "id": 175431,
+      "name": "S02/142458",
+      "date_order": "2026-03-13T09:58:25Z",
+      "pos_reference": "Order 00727-001-0089",
+      "partner_id": 950,
+      "partner_name": "Khách lẻ",
+      "state": "done",
+      "amount_total": 15000.0,
+      "amount_tax": 1111.0,
+      "amount_paid": 15000.0,
+      "amount_return": 0.0,
+      "user_id": 22,
+      "user_name": "User POS CN2",
+      "session_id": 727,
+      "session_name": "POS/00727",
+      "lines": [
+        {
+          "id": 290851,
+          "product_id": 2498,
+          "product_code": "D_SD_003",
+          "product_name": "Aquafina 500ml",
+          "name": "CN2/235178",
+          "qty": 1.0,
+          "price_unit": 15000.0,
+          "discount": 0.0,
+          "price_subtotal": 13889.0,
+          "price_subtotal_incl": 15000.0
+        }
+      ],
+      "payments": [
+        {
+          "id": 175056,
+          "name": false,
+          "amount": 15000.0,
+          "payment_method_id": 53,
+          "payment_method_name": "VNPAY",
+          "payment_date": "2026-03-13 09:58:25",
+          "is_change": false
+        }
+      ]
+    },
+    {
+      "id": 175432,
+      "name": "S02/142459",
+      "date_order": "2026-03-13T10:02:15Z",
+      "pos_reference": "Order 00727-001-0090",
+      "partner_id": 950,
+      "partner_name": "Khách lẻ",
+      "state": "done",
+      "amount_total": 25000.0,
+      "amount_tax": 2273.0,
+      "amount_paid": 25000.0,
+      "amount_return": 0.0,
+      "user_id": 22,
+      "user_name": "User POS CN2",
+      "session_id": 727,
+      "session_name": "POS/00727",
+      "lines": [
+        {
+          "id": 290852,
+          "product_id": 2546,
+          "product_code": "D_BIA_001",
+          "product_name": "Bia Sài Gòn Special ( lon 330ml)",
+          "name": "CN2/235179",
+          "qty": 1.0,
+          "price_unit": 25000.0,
+          "discount": 0.0,
+          "price_subtotal": 22727.0,
+          "price_subtotal_incl": 25000.0
+        }
+      ],
+      "payments": [
+        {
+          "id": 175057,
+          "name": false,
+          "amount": 25000.0,
+          "payment_method_id": 53,
+          "payment_method_name": "VNPAY",
+          "payment_date": "2026-03-13 10:02:15",
+          "is_change": false
+        }
+      ]
+    },
+    {
+      "id": 175433,
+      "name": "S02/142460",
+      "date_order": "2026-03-13T10:15:01Z",
+      "pos_reference": "Order 00727-001-0091",
+      "partner_id": 950,
+      "partner_name": "Khách lẻ",
+      "state": "done",
+      "amount_total": 39000.0,
+      "amount_tax": 2889.0,
+      "amount_paid": 39000.0,
+      "amount_return": 0.0,
+      "user_id": 22,
+      "user_name": "User POS CN2",
+      "session_id": 727,
+      "session_name": "POS/00727",
+      "lines": [
+        {
+          "id": 290853,
+          "product_id": 2479,
+          "product_code": "F_BM_004",
+          "product_name": "(A7) Bánh Mì Heo Nướng Teriyaki",
+          "name": "CN2/235180",
+          "qty": 1.0,
+          "price_unit": 39000.0,
+          "discount": 0.0,
+          "price_subtotal": 36111.0,
+          "price_subtotal_incl": 39000.0
+        }
+      ],
+      "payments": [
+        {
+          "id": 175058,
+          "name": false,
+          "amount": 39000.0,
+          "payment_method_id": 53,
+          "payment_method_name": "VNPAY",
+          "payment_date": "2026-03-13 10:15:01",
+          "is_change": false
+        }
+      ]
+    },
+    {
+      "id": 175435,
+      "name": "S02/142462",
+      "date_order": "2026-03-13T10:24:11Z",
+      "pos_reference": "Order 00727-001-0093",
+      "partner_id": 950,
+      "partner_name": "Khách lẻ",
+      "state": "done",
+      "amount_total": 25000.0,
+      "amount_tax": 2273.0,
+      "amount_paid": 25000.0,
+      "amount_return": 0.0,
+      "user_id": 22,
+      "user_name": "User POS CN2",
+      "session_id": 727,
+      "session_name": "POS/00727",
+      "lines": [
+        {
+          "id": 290855,
+          "product_id": 2546,
+          "product_code": "D_BIA_001",
+          "product_name": "Bia Sài Gòn Special ( lon 330ml)",
+          "name": "CN2/235182",
+          "qty": 1.0,
+          "price_unit": 25000.0,
+          "discount": 0.0,
+          "price_subtotal": 22727.0,
+          "price_subtotal_incl": 25000.0
+        }
+      ],
+      "payments": [
+        {
+          "id": 175060,
+          "name": false,
+          "amount": 25000.0,
+          "payment_method_id": 53,
+          "payment_method_name": "VNPAY",
+          "payment_date": "2026-03-13 10:24:11",
+          "is_change": false
+        }
+      ]
+    },
+    {
+      "id": 175437,
+      "name": "S02/142464",
+      "date_order": "2026-03-13T10:32:07Z",
+      "pos_reference": "Order 00727-001-0095",
+      "partner_id": 950,
+      "partner_name": "Khách lẻ",
+      "state": "done",
+      "amount_total": 25000.0,
+      "amount_tax": 2273.0,
+      "amount_paid": 25000.0,
+      "amount_return": 0.0,
+      "user_id": 22,
+      "user_name": "User POS CN2",
+      "session_id": 727,
+      "session_name": "POS/00727",
+      "lines": [
+        {
+          "id": 290857,
+          "product_id": 2546,
+          "product_code": "D_BIA_001",
+          "product_name": "Bia Sài Gòn Special ( lon 330ml)",
+          "name": "CN2/235184",
+          "qty": 1.0,
+          "price_unit": 25000.0,
+          "discount": 0.0,
+          "price_subtotal": 22727.0,
+          "price_subtotal_incl": 25000.0
+        }
+      ],
+      "payments": [
+        {
+          "id": 175062,
+          "name": false,
+          "amount": 25000.0,
+          "payment_method_id": 53,
+          "payment_method_name": "VNPAY",
+          "payment_date": "2026-03-13 10:32:07",
+          "is_change": false
+        }
+      ]
+    },
+    {
+      "id": 175438,
+      "name": "S02/142465",
+      "date_order": "2026-03-13T10:36:52Z",
+      "pos_reference": "Order 00727-001-0096",
+      "partner_id": 950,
+      "partner_name": "Khách lẻ",
+      "state": "done",
+      "amount_total": 39000.0,
+      "amount_tax": 2889.0,
+      "amount_paid": 39000.0,
+      "amount_return": 0.0,
+      "user_id": 22,
+      "user_name": "User POS CN2",
+      "session_id": 727,
+      "session_name": "POS/00727",
+      "lines": [
+        {
+          "id": 290858,
+          "product_id": 2479,
+          "product_code": "F_BM_004",
+          "product_name": "(A7) Bánh Mì Heo Nướng Teriyaki",
+          "name": "CN2/235185",
+          "qty": 1.0,
+          "price_unit": 39000.0,
+          "discount": 0.0,
+          "price_subtotal": 36111.0,
+          "price_subtotal_incl": 39000.0
+        }
+      ],
+      "payments": [
+        {
+          "id": 175063,
+          "name": false,
+          "amount": 39000.0,
+          "payment_method_id": 53,
+          "payment_method_name": "VNPAY",
+          "payment_date": "2026-03-13 10:36:52",
+          "is_change": false
+        }
+      ]
+    },
+    {
+      "id": 175439,
+      "name": "S02/142466",
+      "date_order": "2026-03-13T10:51:02Z",
+      "pos_reference": "Order 00727-001-0097",
+      "partner_id": 950,
+      "partner_name": "Khách lẻ",
+      "state": "done",
+      "amount_total": 25000.0,
+      "amount_tax": 2273.0,
+      "amount_paid": 25000.0,
+      "amount_return": 0.0,
+      "user_id": 22,
+      "user_name": "User POS CN2",
+      "session_id": 727,
+      "session_name": "POS/00727",
+      "lines": [
+        {
+          "id": 290859,
+          "product_id": 2546,
+          "product_code": "D_BIA_001",
+          "product_name": "Bia Sài Gòn Special ( lon 330ml)",
+          "name": "CN2/235186",
+          "qty": 1.0,
+          "price_unit": 25000.0,
+          "discount": 0.0,
+          "price_subtotal": 22727.0,
+          "price_subtotal_incl": 25000.0
+        }
+      ],
+      "payments": [
+        {
+          "id": 175064,
+          "name": false,
+          "amount": 25000.0,
+          "payment_method_id": 53,
+          "payment_method_name": "VNPAY",
+          "payment_date": "2026-03-13 10:51:02",
+          "is_change": false
+        }
+      ]
+    }
+  ]
+}

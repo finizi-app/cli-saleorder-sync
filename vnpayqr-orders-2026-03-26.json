@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "query_date": "2026-03-26",
+    "timezone": "Asia/Ho_Chi_Minh",
+    "exported_at": "2026-03-26T16:32:10Z",
+    "total_orders": 1,
+    "total_amount": 51000.0,
+    "total_tax": 3778.0,
+    "total_paid": 51000.0
+  },
+  "orders": [
+    {
+      "id": 176327,
+      "name": "S02/143346",
+      "date_order": "2026-03-26T05:07:38Z",
+      "pos_reference": "Order 00741-002-0027",
+      "partner_id": 950,
+      "partner_name": "Khách lẻ",
+      "state": "invoiced",
+      "amount_total": 51000.0,
+      "amount_tax": 3778.0,
+      "amount_paid": 51000.0,
+      "amount_return": 0.0,
+      "user_id": 22,
+      "user_name": "User POS CN2",
+      "session_id": 741,
+      "session_name": "POS/00741",
+      "lines": [
+        {
+          "id": 292219,
+          "product_id": 2485,
+          "product_code": "F_BM_010",
+          "product_name": "(A9) Bánh Mì Gà Xé Bơ Tỏi",
+          "name": "CN2/236546",
+          "qty": 1.0,
+          "price_unit": 39000.0,
+          "discount": 0.0,
+          "price_subtotal": 36111.0,
+          "price_subtotal_incl": 39000.0,
+          "uom_id": 55,
+          "uom_name": "phần"
+        },
+        {
+          "id": 292220,
+          "product_id": 2730,
+          "product_code": "FR_001",
+          "product_name": "Chuối Trái",
+          "name": "CN2/236547",
+          "qty": 1.0,
+          "price_unit": 12000.0,
+          "discount": 0.0,
+          "price_subtotal": 11111.0,
+          "price_subtotal_incl": 12000.0,
+          "uom_id": 6248,
+          "uom_name": "trái"
+        }
+      ],
+      "payments": [
+        {
+          "id": 176078,
+          "name": false,
+          "amount": 51000.0,
+          "payment_method_id": 40,
+          "payment_method_name": "VNPayQR",
+          "payment_date": "2026-03-26 05:07:38",
+          "is_change": false
+        }
+      ]
+    }
+  ]
+}
