@@ -58,6 +58,9 @@ Examples:
 
   # Override with CLI args
   python -m src.b4b_import_cli --input orders.json --url http://api.example.com --token xxx
+
+  # Skip VNPay POS invoice generation
+  python -m src.b4b_import_cli --input orders.json --no-invoice
         """,
     )
 
@@ -110,7 +113,7 @@ Examples:
     parser.add_argument(
         "--no-invoice",
         action="store_true",
-        help="Skip VNPay invoice generation",
+        help="Skip VNPay POS invoice generation",
     )
 
     return parser
@@ -225,14 +228,14 @@ def main(argv: List[str] = None) -> int:
                 success_count += 1
                 logger.info(f"[{idx}/{len(b4b_orders)}] Created: {order_number} (id={order_id})")
 
-                # Generate VNPay invoice (skip if --no-invoice)
+                # Generate VNPay POS invoice (skip if --no-invoice)
                 invoice_status = "skipped" if args.no_invoice else "pending"
                 if order_id and not args.no_invoice:
                     try:
-                        client.generate_vnpay_invoice(order_id)
+                        client.generate_vnpay_invoice(order_id, invoice_type="pos")
                         invoice_count += 1
                         invoice_status = "generated"
-                        logger.info(f"[{idx}/{len(b4b_orders)}] VNPay invoice generated for: {order_number}")
+                        logger.info(f"[{idx}/{len(b4b_orders)}] POS invoice generated for: {order_number}")
                     except Exception as inv_e:
                         invoice_error_count += 1
                         invoice_status = f"failed: {inv_e}"

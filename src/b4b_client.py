@@ -53,18 +53,56 @@ class B4BClient:
         response.raise_for_status()
         return response.json()
 
-    def generate_vnpay_invoice(self, order_id: str, invoice_type: str = "pos") -> Dict[str, Any]:
+    def update_sale_order(
+        self,
+        order_id: str,
+        order_data: Dict[str, Any],
+        unlink_invoice: bool = False,
+    ) -> Dict[str, Any]:
+        """Update a sale order via API.
+
+        Args:
+            order_id: Sale order UUID
+            order_data: Order data to update (partial update supported)
+            unlink_invoice: If True, remove linked invoice
+        """
+        url = f"/api/v1/entities/{self.entity_id}/sale-orders/{order_id}"
+        client = self._get_client()
+
+        if unlink_invoice:
+            order_data = {**order_data, "generated_invoice_id": None}
+
+        response = client.put(url, json=order_data)
+        response.raise_for_status()
+        return response.json()
+
+    def generate_vnpay_invoice(
+        self,
+        order_id: str,
+        invoice_type: str = "pos",
+        auto_release: bool = True,
+        auto_sign: bool = True,
+        auto_send_tax: bool = True,
+    ) -> Dict[str, Any]:
         """Generate VNPay invoice for a sale order.
 
         Args:
             order_id: Sale order UUID
-            invoice_type: Type of invoice ("pos" for POS orders, default: "pos")
+            invoice_type: Type of invoice ("vat", "sales", or "pos", default: "pos")
+            auto_release: Auto release after creation (default: True)
+            auto_sign: Auto digital sign (default: True)
+            auto_send_tax: Auto send to tax authority (default: True)
         """
         url = f"/api/v1/entities/{self.entity_id}/sale-orders/{order_id}/generate-vnpay-invoice"
         client = self._get_client()
 
-        # Try query parameter first
-        response = client.post(url, params={"invoice_type": invoice_type})
+        params = {
+            "invoice_type": invoice_type,
+            "auto_release": str(auto_release).lower(),
+            "auto_sign": str(auto_sign).lower(),
+            "auto_send_tax": str(auto_send_tax).lower(),
+        }
+        response = client.post(url, params=params)
         response.raise_for_status()
         return response.json()
 

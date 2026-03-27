@@ -46,6 +46,7 @@ def map_order_line(odoo_line: Dict[str, Any], line_number: int = 1) -> Dict[str,
         "item_name": odoo_line.get("product_name") or None,
         "description": odoo_line.get("name", ""),
         "quantity": qty,
+        "unit_of_measure": odoo_line.get("uom_name") or None,
         # Tax-aware pricing (explicit naming)
         "unit_price_without_tax": round(unit_price_excl_tax, 2),
         "unit_price_with_tax": round(unit_price_incl_tax, 2),
@@ -75,6 +76,18 @@ def map_status(odoo_state: str) -> str:
     return mapping.get(odoo_state, "draft")
 
 
+def map_payment_method(odoo_payment_method: str) -> str:
+    """Map Odoo payment method to B4B payment method code."""
+    mapping = {
+        "Thẻ ATM": "TM",
+        "VNPayQR": "VNPAYQR",
+        "VNPAY": "VNPAY",
+        "Tiền mặt": "CASH",
+        "Chuyển khoản": "TRANSFER",
+    }
+    return mapping.get(odoo_payment_method, odoo_payment_method)
+
+
 def map_order(odoo_order: Dict[str, Any]) -> Dict[str, Any]:
     """Map Odoo POS order to B4B SaleOrder format."""
     # Map lines
@@ -83,9 +96,10 @@ def map_order(odoo_order: Dict[str, Any]) -> Dict[str, Any]:
         for idx, line in enumerate(odoo_order.get("lines", []))
     ]
 
-    # Get payment method from first payment
+    # Get payment method from first payment and map to B4B code
     payments = odoo_order.get("payments", [])
-    payment_method = payments[0].get("payment_method_name") if payments else None
+    odoo_payment_method = payments[0].get("payment_method_name") if payments else None
+    payment_method = map_payment_method(odoo_payment_method) if odoo_payment_method else None
 
     return {
         "order_number": odoo_order.get("name", ""),

@@ -114,6 +114,7 @@ class OdooPOSImporter:
         # Batch fetch lines and payments
         lines_by_id: Dict[int, Dict[str, Any]] = {}
         payments_by_id: Dict[int, Dict[str, Any]] = {}
+        products_by_id: Dict[int, Dict[str, Any]] = {}
 
         if all_line_ids:
             line_records = self.client.read(
@@ -123,6 +124,25 @@ class OdooPOSImporter:
             )
             lines_by_id = {line["id"]: line for line in line_records}
             logger.info(f"Fetched {len(line_records)} order lines")
+
+            # Fetch unique products for UOM info
+            product_ids = set()
+            for line in line_records:
+                pid = line.get("product_id")
+                if pid:
+                    if isinstance(pid, list) and len(pid) > 0:
+                        product_ids.add(pid[0])
+                    elif isinstance(pid, int):
+                        product_ids.add(pid)
+
+            if product_ids:
+                product_records = self.client.search_read(
+                    model="product.product",
+                    domain=[("id", "in", list(product_ids))],
+                    fields=["id", "uom_id", "uom_name"],
+                )
+                products_by_id = {p["id"]: p for p in product_records}
+                logger.info(f"Fetched {len(product_records)} products for UOM")
 
         if all_payment_ids:
             payment_records = self.client.read(
@@ -137,7 +157,7 @@ class OdooPOSImporter:
         orders: List[PosOrder] = []
         for record in order_records:
             order = self._assemble_order(
-                record, lines_by_id, payments_by_id
+                record, lines_by_id, payments_by_id, products_by_id
             )
             orders.append(order)
 
@@ -148,6 +168,7 @@ class OdooPOSImporter:
         record: Dict[str, Any],
         lines_by_id: Dict[int, Dict[str, Any]],
         payments_by_id: Dict[int, Dict[str, Any]],
+        products_by_id: Dict[int, Dict[str, Any]] = None,
     ) -> PosOrder:
         """
         Assemble a PosOrder from record and related data.
@@ -156,6 +177,7 @@ class OdooPOSImporter:
             record: Order record from Odoo
             lines_by_id: Dictionary of line records by ID
             payments_by_id: Dictionary of payment records by ID
+            products_by_id: Dictionary of product records by ID (for UOM)
 
         Returns:
             PosOrder object
@@ -180,6 +202,15 @@ class OdooPOSImporter:
         for line_id in record.get("lines", []):
             if line_id in lines_by_id:
                 line_record = lines_by_id[line_id]
+
+                # Get UOM from product
+                uom_id = None
+                product_id_raw = line_record.get("product_id")
+                if product_id_raw and products_by_id:
+                    pid = product_id_raw[0] if isinstance(product_id_raw, list) else product_id_raw
+                    if pid in products_by_id:
+                        uom_id = products_by_id[pid].get("uom_id")
+
                 order.lines.append(
                     PosOrderLine(
                         id=line_record["id"],
@@ -190,6 +221,7 @@ class OdooPOSImporter:
                         discount=line_record.get("discount", 0.0),
                         price_subtotal=line_record.get("price_subtotal", 0.0),
                         price_subtotal_incl=line_record.get("price_subtotal_incl", 0.0),
+                        uom_id=uom_id,
                     )
                 )
 
@@ -235,6 +267,7 @@ class OdooPOSImporter:
         # Fetch lines and payments
         lines_by_id: Dict[int, Dict[str, Any]] = {}
         payments_by_id: Dict[int, Dict[str, Any]] = {}
+        products_by_id: Dict[int, Dict[str, Any]] = {}
 
         line_ids = record.get("lines", [])
         if line_ids:
@@ -245,6 +278,24 @@ class OdooPOSImporter:
             )
             lines_by_id = {line["id"]: line for line in line_records}
 
+            # Fetch products for UOM
+            product_ids = set()
+            for line in line_records:
+                pid = line.get("product_id")
+                if pid:
+                    if isinstance(pid, list) and len(pid) > 0:
+                        product_ids.add(pid[0])
+                    elif isinstance(pid, int):
+                        product_ids.add(pid)
+
+            if product_ids:
+                product_records = self.client.search_read(
+                    model="product.product",
+                    domain=[("id", "in", list(product_ids))],
+                    fields=["id", "uom_id", "uom_name"],
+                )
+                products_by_id = {p["id"]: p for p in product_records}
+
         payment_ids = record.get("payment_ids", [])
         if payment_ids:
             payment_records = self.client.read(
@@ -254,4 +305,4 @@ class OdooPOSImporter:
             )
             payments_by_id = {p["id"]: p for p in payment_records}
 
-        return self._assemble_order(record, lines_by_id, payments_by_id)
+        return self._assemble_order(record, lines_by_id, payments_by_id, products_by_id)

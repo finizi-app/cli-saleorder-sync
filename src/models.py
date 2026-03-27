@@ -37,6 +37,7 @@ class PosOrderLine:
     discount: float = 0.0
     price_subtotal: float = 0.0
     price_subtotal_incl: float = 0.0
+    uom_id: Optional[Tuple[int, str]] = None
 
     def to_dict(self) -> Dict[str, Any]:
         """Convert to dictionary for JSON serialization."""
@@ -55,6 +56,8 @@ class PosOrderLine:
             "discount": self.discount,
             "price_subtotal": self.price_subtotal,
             "price_subtotal_incl": self.price_subtotal_incl,
+            "uom_id": self.uom_id[0] if self.uom_id else None,
+            "uom_name": self.uom_id[1] if self.uom_id else "",
         }
 
 
