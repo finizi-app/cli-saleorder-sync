@@ -1,0 +1,22 @@
+{
+  "receipt_items": {
+    "Cà phê sữa đá": {
+      "odoo_product_id": 2489,
+      "odoo_product_name": "(D7) Cà Phê Sữa Đá",
+      "confidence": "exact",
+      "last_matched": "2026-03-26"
+    },
+    "Ca phe sua da": {
+      "odoo_product_id": 2489,
+      "odoo_product_name": "(D7) Cà Phê Sữa Đá",
+      "confidence": "fuzzy",
+      "last_matched": "2026-03-26"
+    },
+    "Test Item": {
+      "odoo_product_id": 1234,
+      "odoo_product_name": "Test Product"
+    }
+  },
+  "last_updated": "2026-03-27T02:16:11.295490",
+  "version": "1.0"
+}

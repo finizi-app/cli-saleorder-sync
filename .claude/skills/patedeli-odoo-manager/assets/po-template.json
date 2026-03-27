@@ -1,0 +1,16 @@
+{
+  "vendor_id": 123,
+  "vendor_name": "Example Vendor",
+  "order_date": "2026-03-26",
+  "lines": [
+    {
+      "product_id": 2489,
+      "name": "(D7) Cà Phê Sữa Đá",
+      "quantity": 10.0,
+      "price_unit": 25000.0,
+      "uom_id": 1,
+      "taxes_id": []
+    }
+  ],
+  "notes": "Imported from invoice"
+}
