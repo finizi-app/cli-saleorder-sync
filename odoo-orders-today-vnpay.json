@@ -1,0 +1,1179 @@
+{
+  "query_date": "2026-04-01",
+  "timezone": "Asia/Ho_Chi_Minh",
+  "payment_methods": [
+    "VNPay",
+    "VNPayQR"
+  ],
+  "total_orders": 24,
+  "orders": [
+    {
+      "id": 176700,
+      "name": "S02/143715",
+      "date_order": "2026-04-01T00:18:30Z",
+      "pos_reference": "Order 00747-001-0006",
+      "partner_id": 950,
+      "partner_name": "Khách lẻ",
+      "state": "invoiced",
+      "amount_total": 74000.0,
+      "amount_tax": 5482.0,
+      "amount_paid": 74000.0,
+      "amount_return": 0.0,
+      "user_id": 22,
+      "user_name": "User POS CN2",
+      "session_id": 747,
+      "session_name": "POS/00747",
+      "lines": [
+        {
+          "id": 292776,
+          "product_id": 2675,
+          "product_code": "D_NC_001",
+          "product_name": "(D3) Nước cam tươi",
+          "name": "CN2/237103",
+          "qty": 1.0,
+          "price_unit": 35000.0,
+          "discount": 0.0,
+          "price_subtotal": 32407.0,
+          "price_subtotal_incl": 35000.0,
+          "uom_id": 56,
+          "uom_name": "ly"
+        },
+        {
+          "id": 292777,
+          "product_id": 2689,
+          "product_code": "F_BM_012",
+          "product_name": "(A3) Bánh Mì Pate Trứng DOUBLE",
+          "name": "CN2/237104",
+          "qty": 1.0,
+          "price_unit": 39000.0,
+          "discount": 0.0,
+          "price_subtotal": 36111.0,
+          "price_subtotal_incl": 39000.0,
+          "uom_id": 55,
+          "uom_name": "phần"
+        }
+      ],
+      "payments": [
+        {
+          "id": 176496,
+          "name": false,
+          "amount": 74000.0,
+          "payment_method_id": 53,
+          "payment_method_name": "VNPAY",
+          "payment_date": "2026-04-01 00:18:30",
+          "is_change": false
+        }
+      ]
+    },
+    {
+      "id": 176701,
+      "name": "S02/143716",
+      "date_order": "2026-04-01T00:34:21Z",
+      "pos_reference": "Order 00747-001-0007",
+      "partner_id": 950,
+      "partner_name": "Khách lẻ",
+      "state": "invoiced",
+      "amount_total": 35000.0,
+      "amount_tax": 2593.0,
+      "amount_paid": 35000.0,
+      "amount_return": 0.0,
+      "user_id": 22,
+      "user_name": "User POS CN2",
+      "session_id": 747,
+      "session_name": "POS/00747",
+      "lines": [
+        {
+          "id": 292778,
+          "product_id": 2737,
+          "product_code": "DU-F-003",
+          "product_name": "Sữa Chua Lắc Đá CAFE",
+          "name": "CN2/237105",
+          "qty": 1.0,
+          "price_unit": 35000.0,
+          "discount": 0.0,
+          "price_subtotal": 32407.0,
+          "price_subtotal_incl": 35000.0,
+          "uom_id": 56,
+          "uom_name": "ly"
+        }
+      ],
+      "payments": [
+        {
+          "id": 176497,
+          "name": false,
+          "amount": 35000.0,
+          "payment_method_id": 53,
+          "payment_method_name": "VNPAY",
+          "payment_date": "2026-04-01 00:34:21",
+          "is_change": false
+        }
+      ]
+    },
+    {
+      "id": 176709,
+      "name": "S02/143724",
+      "date_order": "2026-04-01T01:10:12Z",
+      "pos_reference": "Order 00747-001-0015",
+      "partner_id": 950,
+      "partner_name": "Khách lẻ",
+      "state": "invoiced",
+      "amount_total": 29000.0,
+      "amount_tax": 2148.0,
+      "amount_paid": 29000.0,
+      "amount_return": 0.0,
+      "user_id": 22,
+      "user_name": "User POS CN2",
+      "session_id": 747,
+      "session_name": "POS/00747",
+      "lines": [
+        {
+          "id": 292789,
+          "product_id": 2489,
+          "product_code": "D_CT_002",
+          "product_name": "(D7) Cà Phê Sữa Đá",
+          "name": "CN2/237116",
+          "qty": 1.0,
+          "price_unit": 29000.0,
+          "discount": 0.0,
+          "price_subtotal": 26852.0,
+          "price_subtotal_incl": 29000.0,
+          "uom_id": 55,
+          "uom_name": "phần"
+        }
+      ],
+      "payments": [
+        {
+          "id": 176506,
+          "name": false,
+          "amount": 29000.0,
+          "payment_method_id": 53,
+          "payment_method_name": "VNPAY",
+          "payment_date": "2026-04-01 01:10:12",
+          "is_change": false
+        }
+      ]
+    },
+    {
+      "id": 176712,
+      "name": "S02/143727",
+      "date_order": "2026-04-01T01:24:48Z",
+      "pos_reference": "Order 00747-001-0018",
+      "partner_id": 950,
+      "partner_name": "Khách lẻ",
+      "state": "invoiced",
+      "amount_total": 33000.0,
+      "amount_tax": 2444.0,
+      "amount_paid": 33000.0,
+      "amount_return": 0.0,
+      "user_id": 22,
+      "user_name": "User POS CN2",
+      "session_id": 747,
+      "session_name": "POS/00747",
+      "lines": [
+        {
+          "id": 292794,
+          "product_id": 2477,
+          "product_code": "F_BM_002",
+          "product_name": "(A2) Bánh Mì Pate Trứng",
+          "name": "CN2/237121",
+          "qty": 1.0,
+          "price_unit": 33000.0,
+          "discount": 0.0,
+          "price_subtotal": 30556.0,
+          "price_subtotal_incl": 33000.0,
+          "uom_id": 55,
+          "uom_name": "phần"
+        }
+      ],
+      "payments": [
+        {
+          "id": 176510,
+          "name": false,
+          "amount": 33000.0,
+          "payment_method_id": 53,
+          "payment_method_name": "VNPAY",
+          "payment_date": "2026-04-01 01:24:48",
+          "is_change": false
+        }
+      ]
+    },
+    {
+      "id": 176717,
+      "name": "S02/143732",
+      "date_order": "2026-04-01T02:36:33Z",
+      "pos_reference": "Order 00747-001-0023",
+      "partner_id": 950,
+      "partner_name": "Khách lẻ",
+      "state": "invoiced",
+      "amount_total": 25000.0,
+      "amount_tax": 1852.0,
+      "amount_paid": 25000.0,
+      "amount_return": 0.0,
+      "user_id": 22,
+      "user_name": "User POS CN2",
+      "session_id": 747,
+      "session_name": "POS/00747",
+      "lines": [
+        {
+          "id": 292800,
+          "product_id": 2481,
+          "product_code": "F_BM_006",
+          "product_name": "(A5) Bánh Mì Que Pate Chà Bông",
+          "name": "CN2/237127",
+          "qty": 1.0,
+          "price_unit": 25000.0,
+          "discount": 0.0,
+          "price_subtotal": 23148.0,
+          "price_subtotal_incl": 25000.0,
+          "uom_id": 55,
+          "uom_name": "phần"
+        }
+      ],
+      "payments": [
+        {
+          "id": 176515,
+          "name": false,
+          "amount": 25000.0,
+          "payment_method_id": 53,
+          "payment_method_name": "VNPAY",
+          "payment_date": "2026-04-01 02:36:33",
+          "is_change": false
+        }
+      ]
+    },
+    {
+      "id": 176720,
+      "name": "S02/143735",
+      "date_order": "2026-04-01T03:16:34Z",
+      "pos_reference": "Order 00747-001-0026",
+      "partner_id": 950,
+      "partner_name": "Khách lẻ",
+      "state": "invoiced",
+      "amount_total": 39000.0,
+      "amount_tax": 2889.0,
+      "amount_paid": 39000.0,
+      "amount_return": 0.0,
+      "user_id": 22,
+      "user_name": "User POS CN2",
+      "session_id": 747,
+      "session_name": "POS/00747",
+      "lines": [
+        {
+          "id": 292803,
+          "product_id": 2479,
+          "product_code": "F_BM_004",
+          "product_name": "(A7) Bánh Mì Heo Nướng Teriyaki",
+          "name": "CN2/237130",
+          "qty": 1.0,
+          "price_unit": 39000.0,
+          "discount": 0.0,
+          "price_subtotal": 36111.0,
+          "price_subtotal_incl": 39000.0,
+          "uom_id": 55,
+          "uom_name": "phần"
+        }
+      ],
+      "payments": [
+        {
+          "id": 176519,
+          "name": false,
+          "amount": 39000.0,
+          "payment_method_id": 53,
+          "payment_method_name": "VNPAY",
+          "payment_date": "2026-04-01 03:16:34",
+          "is_change": false
+        }
+      ]
+    },
+    {
+      "id": 176725,
+      "name": "S02/143740",
+      "date_order": "2026-04-01T05:03:53Z",
+      "pos_reference": "Order 00747-001-0044",
+      "partner_id": 950,
+      "partner_name": "Khách lẻ",
+      "state": "invoiced",
+      "amount_total": 55000.0,
+      "amount_tax": 4074.0,
+      "amount_paid": 55000.0,
+      "amount_return": 0.0,
+      "user_id": 22,
+      "user_name": "User POS CN2",
+      "session_id": 747,
+      "session_name": "POS/00747",
+      "lines": [
+        {
+          "id": 292810,
+          "product_id": 2657,
+          "product_code": "F_MT_003",
+          "product_name": "(B5) Mì Bò Ngũ Vị",
+          "name": "CN2/237137",
+          "qty": 1.0,
+          "price_unit": 55000.0,
+          "discount": 0.0,
+          "price_subtotal": 50926.0,
+          "price_subtotal_incl": 55000.0,
+          "uom_id": 55,
+          "uom_name": "phần"
+        }
+      ],
+      "payments": [
+        {
+          "id": 176524,
+          "name": false,
+          "amount": 55000.0,
+          "payment_method_id": 53,
+          "payment_method_name": "VNPAY",
+          "payment_date": "2026-04-01 05:03:53",
+          "is_change": false
+        }
+      ]
+    },
+    {
+      "id": 176742,
+      "name": "S02/143756",
+      "date_order": "2026-04-01T05:16:25Z",
+      "pos_reference": "Order 00747-001-0048",
+      "partner_id": 950,
+      "partner_name": "Khách lẻ",
+      "state": "invoiced",
+      "amount_total": 180000.0,
+      "amount_tax": 13334.0,
+      "amount_paid": 180000.0,
+      "amount_return": 0.0,
+      "user_id": 22,
+      "user_name": "User POS CN2",
+      "session_id": 747,
+      "session_name": "POS/00747",
+      "lines": [
+        {
+          "id": 292833,
+          "product_id": 2735,
+          "product_code": "",
+          "product_name": "Nước Ép Dưa Hấu Hạt Chia",
+          "name": "CN2/237160",
+          "qty": 1.0,
+          "price_unit": 35000.0,
+          "discount": 0.0,
+          "price_subtotal": 32407.0,
+          "price_subtotal_incl": 35000.0,
+          "uom_id": 56,
+          "uom_name": "ly"
+        },
+        {
+          "id": 292834,
+          "product_id": 2675,
+          "product_code": "D_NC_001",
+          "product_name": "(D3) Nước cam tươi",
+          "name": "CN2/237161",
+          "qty": 1.0,
+          "price_unit": 35000.0,
+          "discount": 0.0,
+          "price_subtotal": 32407.0,
+          "price_subtotal_incl": 35000.0,
+          "uom_id": 56,
+          "uom_name": "ly"
+        },
+        {
+          "id": 292835,
+          "product_id": 2482,
+          "product_code": "F_BM_007",
+          "product_name": "(A11) Bánh Mì Bò Kho",
+          "name": "CN2/237162",
+          "qty": 2.0,
+          "price_unit": 55000.0,
+          "discount": 0.0,
+          "price_subtotal": 101852.0,
+          "price_subtotal_incl": 110000.0,
+          "uom_id": 55,
+          "uom_name": "phần"
+        }
+      ],
+      "payments": [
+        {
+          "id": 176541,
+          "name": false,
+          "amount": 180000.0,
+          "payment_method_id": 53,
+          "payment_method_name": "VNPAY",
+          "payment_date": "2026-04-01 05:16:25",
+          "is_change": false
+        }
+      ]
+    },
+    {
+      "id": 176743,
+      "name": "S02/143757",
+      "date_order": "2026-04-01T05:28:34Z",
+      "pos_reference": "Order 00747-001-0040",
+      "partner_id": 950,
+      "partner_name": "Khách lẻ",
+      "state": "invoiced",
+      "amount_total": 68000.0,
+      "amount_tax": 5037.0,
+      "amount_paid": 68000.0,
+      "amount_return": 0.0,
+      "user_id": 22,
+      "user_name": "User POS CN2",
+      "session_id": 747,
+      "session_name": "POS/00747",
+      "lines": [
+        {
+          "id": 292836,
+          "product_id": 2479,
+          "product_code": "F_BM_004",
+          "product_name": "(A7) Bánh Mì Heo Nướng Teriyaki",
+          "name": "CN2/237163",
+          "qty": 1.0,
+          "price_unit": 39000.0,
+          "discount": 0.0,
+          "price_subtotal": 36111.0,
+          "price_subtotal_incl": 39000.0,
+          "uom_id": 55,
+          "uom_name": "phần"
+        },
+        {
+          "id": 292837,
+          "product_id": 2564,
+          "product_code": "D_DX_001",
+          "product_name": "(D4) Dừa xiêm",
+          "name": "CN2/237164",
+          "qty": 1.0,
+          "price_unit": 29000.0,
+          "discount": 0.0,
+          "price_subtotal": 26852.0,
+          "price_subtotal_incl": 29000.0,
+          "uom_id": 6248,
+          "uom_name": "trái"
+        }
+      ],
+      "payments": [
+        {
+          "id": 176542,
+          "name": false,
+          "amount": 68000.0,
+          "payment_method_id": 53,
+          "payment_method_name": "VNPAY",
+          "payment_date": "2026-04-01 05:28:34",
+          "is_change": false
+        }
+      ]
+    },
+    {
+      "id": 176746,
+      "name": "S02/143760",
+      "date_order": "2026-04-01T05:37:23Z",
+      "pos_reference": "Order 00747-001-0051",
+      "partner_id": 950,
+      "partner_name": "Khách lẻ",
+      "state": "invoiced",
+      "amount_total": 39000.0,
+      "amount_tax": 2889.0,
+      "amount_paid": 39000.0,
+      "amount_return": 0.0,
+      "user_id": 22,
+      "user_name": "User POS CN2",
+      "session_id": 747,
+      "session_name": "POS/00747",
+      "lines": [
+        {
+          "id": 292845,
+          "product_id": 2479,
+          "product_code": "F_BM_004",
+          "product_name": "(A7) Bánh Mì Heo Nướng Teriyaki",
+          "name": "CN2/237172",
+          "qty": 1.0,
+          "price_unit": 39000.0,
+          "discount": 0.0,
+          "price_subtotal": 36111.0,
+          "price_subtotal_incl": 39000.0,
+          "uom_id": 55,
+          "uom_name": "phần"
+        }
+      ],
+      "payments": [
+        {
+          "id": 176546,
+          "name": false,
+          "amount": 39000.0,
+          "payment_method_id": 53,
+          "payment_method_name": "VNPAY",
+          "payment_date": "2026-04-01 05:37:23",
+          "is_change": false
+        }
+      ]
+    },
+    {
+      "id": 176750,
+      "name": "S02/143764",
+      "date_order": "2026-04-01T06:08:48Z",
+      "pos_reference": "Order 00747-001-0055",
+      "partner_id": 950,
+      "partner_name": "Khách lẻ",
+      "state": "invoiced",
+      "amount_total": 39000.0,
+      "amount_tax": 2889.0,
+      "amount_paid": 39000.0,
+      "amount_return": 0.0,
+      "user_id": 22,
+      "user_name": "User POS CN2",
+      "session_id": 747,
+      "session_name": "POS/00747",
+      "lines": [
+        {
+          "id": 292849,
+          "product_id": 2479,
+          "product_code": "F_BM_004",
+          "product_name": "(A7) Bánh Mì Heo Nướng Teriyaki",
+          "name": "CN2/237176",
+          "qty": 1.0,
+          "price_unit": 39000.0,
+          "discount": 0.0,
+          "price_subtotal": 36111.0,
+          "price_subtotal_incl": 39000.0,
+          "uom_id": 55,
+          "uom_name": "phần"
+        }
+      ],
+      "payments": [
+        {
+          "id": 176550,
+          "name": false,
+          "amount": 39000.0,
+          "payment_method_id": 53,
+          "payment_method_name": "VNPAY",
+          "payment_date": "2026-04-01 06:08:48",
+          "is_change": false
+        }
+      ]
+    },
+    {
+      "id": 176757,
+      "name": "S02/143771",
+      "date_order": "2026-04-01T07:07:02Z",
+      "pos_reference": "Order 00747-001-0063",
+      "partner_id": 950,
+      "partner_name": "Khách lẻ",
+      "state": "invoiced",
+      "amount_total": 74000.0,
+      "amount_tax": 5482.0,
+      "amount_paid": 74000.0,
+      "amount_return": 0.0,
+      "user_id": 22,
+      "user_name": "User POS CN2",
+      "session_id": 747,
+      "session_name": "POS/00747",
+      "lines": [
+        {
+          "id": 292859,
+          "product_id": 2478,
+          "product_code": "F_BM_003",
+          "product_name": "(A4) Bánh Mì Thập Cẩm",
+          "name": "CN2/237186",
+          "qty": 1.0,
+          "price_unit": 39000.0,
+          "discount": 0.0,
+          "price_subtotal": 36111.0,
+          "price_subtotal_incl": 39000.0,
+          "uom_id": 55,
+          "uom_name": "phần"
+        },
+        {
+          "id": 292860,
+          "product_id": 2735,
+          "product_code": "",
+          "product_name": "Nước Ép Dưa Hấu Hạt Chia",
+          "name": "CN2/237187",
+          "qty": 1.0,
+          "price_unit": 35000.0,
+          "discount": 0.0,
+          "price_subtotal": 32407.0,
+          "price_subtotal_incl": 35000.0,
+          "uom_id": 56,
+          "uom_name": "ly"
+        }
+      ],
+      "payments": [
+        {
+          "id": 176559,
+          "name": false,
+          "amount": 74000.0,
+          "payment_method_id": 53,
+          "payment_method_name": "VNPAY",
+          "payment_date": "2026-04-01 07:07:02",
+          "is_change": false
+        }
+      ]
+    },
+    {
+      "id": 176758,
+      "name": "S02/143772",
+      "date_order": "2026-04-01T07:15:17Z",
+      "pos_reference": "Order 00747-001-0060",
+      "partner_id": 950,
+      "partner_name": "Khách lẻ",
+      "state": "invoiced",
+      "amount_total": 94000.0,
+      "amount_tax": 6963.0,
+      "amount_paid": 94000.0,
+      "amount_return": 0.0,
+      "user_id": 22,
+      "user_name": "User POS CN2",
+      "session_id": 747,
+      "session_name": "POS/00747",
+      "lines": [
+        {
+          "id": 292861,
+          "product_id": 2657,
+          "product_code": "F_MT_003",
+          "product_name": "(B5) Mì Bò Ngũ Vị",
+          "name": "CN2/237188",
+          "qty": 1.0,
+          "price_unit": 55000.0,
+          "discount": 0.0,
+          "price_subtotal": 50926.0,
+          "price_subtotal_incl": 55000.0,
+          "uom_id": 55,
+          "uom_name": "phần"
+        },
+        {
+          "id": 292862,
+          "product_id": 2479,
+          "product_code": "F_BM_004",
+          "product_name": "(A7) Bánh Mì Heo Nướng Teriyaki",
+          "name": "CN2/237189",
+          "qty": 1.0,
+          "price_unit": 39000.0,
+          "discount": 0.0,
+          "price_subtotal": 36111.0,
+          "price_subtotal_incl": 39000.0,
+          "uom_id": 55,
+          "uom_name": "phần"
+        }
+      ],
+      "payments": [
+        {
+          "id": 176560,
+          "name": false,
+          "amount": 94000.0,
+          "payment_method_id": 53,
+          "payment_method_name": "VNPAY",
+          "payment_date": "2026-04-01 07:15:17",
+          "is_change": false
+        }
+      ]
+    },
+    {
+      "id": 176760,
+      "name": "S02/143774",
+      "date_order": "2026-04-01T07:37:07Z",
+      "pos_reference": "Order 00747-001-0067",
+      "partner_id": 950,
+      "partner_name": "Khách lẻ",
+      "state": "invoiced",
+      "amount_total": 35000.0,
+      "amount_tax": 2593.0,
+      "amount_paid": 35000.0,
+      "amount_return": 0.0,
+      "user_id": 22,
+      "user_name": "User POS CN2",
+      "session_id": 747,
+      "session_name": "POS/00747",
+      "lines": [
+        {
+          "id": 292865,
+          "product_id": 2735,
+          "product_code": "",
+          "product_name": "Nước Ép Dưa Hấu Hạt Chia",
+          "name": "CN2/237192",
+          "qty": 1.0,
+          "price_unit": 35000.0,
+          "discount": 0.0,
+          "price_subtotal": 32407.0,
+          "price_subtotal_incl": 35000.0,
+          "uom_id": 56,
+          "uom_name": "ly"
+        }
+      ],
+      "payments": [
+        {
+          "id": 176562,
+          "name": false,
+          "amount": 35000.0,
+          "payment_method_id": 53,
+          "payment_method_name": "VNPAY",
+          "payment_date": "2026-04-01 07:37:07",
+          "is_change": false
+        }
+      ]
+    },
+    {
+      "id": 176695,
+      "name": "S02/143710",
+      "date_order": "2026-03-31T23:37:15Z",
+      "pos_reference": "Order 00747-001-0001",
+      "partner_id": 950,
+      "partner_name": "Khách lẻ",
+      "state": "invoiced",
+      "amount_total": 20000.0,
+      "amount_tax": 1481.0,
+      "amount_paid": 20000.0,
+      "amount_return": 0.0,
+      "user_id": 22,
+      "user_name": "User POS CN2",
+      "session_id": 747,
+      "session_name": "POS/00747",
+      "lines": [
+        {
+          "id": 292770,
+          "product_id": 2725,
+          "product_code": "D_SD_0015",
+          "product_name": "Revive Chanh muối",
+          "name": "CN2/237097",
+          "qty": 1.0,
+          "price_unit": 20000.0,
+          "discount": 0.0,
+          "price_subtotal": 18519.0,
+          "price_subtotal_incl": 20000.0,
+          "uom_id": 167,
+          "uom_name": "chai"
+        }
+      ],
+      "payments": [
+        {
+          "id": 176490,
+          "name": false,
+          "amount": 20000.0,
+          "payment_method_id": 40,
+          "payment_method_name": "VNPayQR",
+          "payment_date": "2026-03-31 23:37:15",
+          "is_change": false
+        }
+      ]
+    },
+    {
+      "id": 176698,
+      "name": "S02/143713",
+      "date_order": "2026-04-01T00:16:22Z",
+      "pos_reference": "Order 00747-001-0004",
+      "partner_id": 950,
+      "partner_name": "Khách lẻ",
+      "state": "invoiced",
+      "amount_total": 39000.0,
+      "amount_tax": 2889.0,
+      "amount_paid": 39000.0,
+      "amount_return": 0.0,
+      "user_id": 22,
+      "user_name": "User POS CN2",
+      "session_id": 747,
+      "session_name": "POS/00747",
+      "lines": [
+        {
+          "id": 292774,
+          "product_id": 2479,
+          "product_code": "F_BM_004",
+          "product_name": "(A7) Bánh Mì Heo Nướng Teriyaki",
+          "name": "CN2/237101",
+          "qty": 1.0,
+          "price_unit": 39000.0,
+          "discount": 0.0,
+          "price_subtotal": 36111.0,
+          "price_subtotal_incl": 39000.0,
+          "uom_id": 55,
+          "uom_name": "phần"
+        }
+      ],
+      "payments": [
+        {
+          "id": 176494,
+          "name": false,
+          "amount": 39000.0,
+          "payment_method_id": 40,
+          "payment_method_name": "VNPayQR",
+          "payment_date": "2026-04-01 00:16:22",
+          "is_change": false
+        }
+      ]
+    },
+    {
+      "id": 176707,
+      "name": "S02/143722",
+      "date_order": "2026-04-01T00:59:15Z",
+      "pos_reference": "Order 00747-001-0013",
+      "partner_id": 950,
+      "partner_name": "Khách lẻ",
+      "state": "invoiced",
+      "amount_total": 20000.0,
+      "amount_tax": 1481.0,
+      "amount_paid": 20000.0,
+      "amount_return": 0.0,
+      "user_id": 22,
+      "user_name": "User POS CN2",
+      "session_id": 747,
+      "session_name": "POS/00747",
+      "lines": [
+        {
+          "id": 292787,
+          "product_id": 2544,
+          "product_code": "D_SD_004",
+          "product_name": "Trà Ô long Tea Plus ( chai 450ml)",
+          "name": "CN2/237114",
+          "qty": 1.0,
+          "price_unit": 20000.0,
+          "discount": 0.0,
+          "price_subtotal": 18519.0,
+          "price_subtotal_incl": 20000.0,
+          "uom_id": 55,
+          "uom_name": "phần"
+        }
+      ],
+      "payments": [
+        {
+          "id": 176504,
+          "name": false,
+          "amount": 20000.0,
+          "payment_method_id": 40,
+          "payment_method_name": "VNPayQR",
+          "payment_date": "2026-04-01 00:59:15",
+          "is_change": false
+        }
+      ]
+    },
+    {
+      "id": 176723,
+      "name": "S02/143738",
+      "date_order": "2026-04-01T04:55:26Z",
+      "pos_reference": "Order 00747-001-0042",
+      "partner_id": 950,
+      "partner_name": "Khách lẻ",
+      "state": "invoiced",
+      "amount_total": 30000.0,
+      "amount_tax": 2222.0,
+      "amount_paid": 30000.0,
+      "amount_return": 0.0,
+      "user_id": 22,
+      "user_name": "User POS CN2",
+      "session_id": 747,
+      "session_name": "POS/00747",
+      "lines": [
+        {
+          "id": 292808,
+          "product_id": 2498,
+          "product_code": "D_SD_003",
+          "product_name": "Aquafina 500ml",
+          "name": "CN2/237135",
+          "qty": 2.0,
+          "price_unit": 15000.0,
+          "discount": 0.0,
+          "price_subtotal": 27778.0,
+          "price_subtotal_incl": 30000.0,
+          "uom_id": 55,
+          "uom_name": "phần"
+        }
+      ],
+      "payments": [
+        {
+          "id": 176522,
+          "name": false,
+          "amount": 30000.0,
+          "payment_method_id": 40,
+          "payment_method_name": "VNPayQR",
+          "payment_date": "2026-04-01 04:55:26",
+          "is_change": false
+        }
+      ]
+    },
+    {
+      "id": 176727,
+      "name": "S02/143742",
+      "date_order": "2026-04-01T05:05:04Z",
+      "pos_reference": "Order 00747-001-0029",
+      "partner_id": 950,
+      "partner_name": "Khách lẻ",
+      "state": "invoiced",
+      "amount_total": 49000.0,
+      "amount_tax": 3630.0,
+      "amount_paid": 49000.0,
+      "amount_return": 0.0,
+      "user_id": 22,
+      "user_name": "User POS CN2",
+      "session_id": 747,
+      "session_name": "POS/00747",
+      "lines": [
+        {
+          "id": 292812,
+          "product_id": 2669,
+          "product_code": "F_MT_002",
+          "product_name": "(B4) Mì Trộn Nấm Nướng Tứ Xuyên",
+          "name": "CN2/237139",
+          "qty": 1.0,
+          "price_unit": 49000.0,
+          "discount": 0.0,
+          "price_subtotal": 45370.0,
+          "price_subtotal_incl": 49000.0,
+          "uom_id": 55,
+          "uom_name": "phần"
+        }
+      ],
+      "payments": [
+        {
+          "id": 176526,
+          "name": false,
+          "amount": 49000.0,
+          "payment_method_id": 40,
+          "payment_method_name": "VNPayQR",
+          "payment_date": "2026-04-01 05:05:04",
+          "is_change": false
+        }
+      ]
+    },
+    {
+      "id": 176729,
+      "name": "S02/143744",
+      "date_order": "2026-04-01T05:05:13Z",
+      "pos_reference": "Order 00747-001-0031",
+      "partner_id": 950,
+      "partner_name": "Khách lẻ",
+      "state": "invoiced",
+      "amount_total": 49000.0,
+      "amount_tax": 2889.0,
+      "amount_paid": 49000.0,
+      "amount_return": 0.0,
+      "user_id": 22,
+      "user_name": "User POS CN2",
+      "session_id": 747,
+      "session_name": "POS/00747",
+      "lines": [
+        {
+          "id": 292814,
+          "product_id": 2484,
+          "product_code": "F_BM_009",
+          "product_name": "(A6) Bánh Mì Xá Xíu",
+          "name": "CN2/237141",
+          "qty": 1.0,
+          "price_unit": 39000.0,
+          "discount": 0.0,
+          "price_subtotal": 36111.0,
+          "price_subtotal_incl": 39000.0,
+          "uom_id": 55,
+          "uom_name": "phần"
+        },
+        {
+          "id": 292815,
+          "product_id": 2500,
+          "product_code": "F_TOP_002",
+          "product_name": "Topping Trứng",
+          "name": "CN2/237142",
+          "qty": 1.0,
+          "price_unit": 10000.0,
+          "discount": 0.0,
+          "price_subtotal": 10000.0,
+          "price_subtotal_incl": 10000.0,
+          "uom_id": 55,
+          "uom_name": "phần"
+        }
+      ],
+      "payments": [
+        {
+          "id": 176528,
+          "name": false,
+          "amount": 49000.0,
+          "payment_method_id": 40,
+          "payment_method_name": "VNPayQR",
+          "payment_date": "2026-04-01 05:05:13",
+          "is_change": false
+        }
+      ]
+    },
+    {
+      "id": 176735,
+      "name": "S02/143749",
+      "date_order": "2026-04-01T05:05:47Z",
+      "pos_reference": "Order 00747-001-0036",
+      "partner_id": 950,
+      "partner_name": "Khách lẻ",
+      "state": "invoiced",
+      "amount_total": 68000.0,
+      "amount_tax": 5037.0,
+      "amount_paid": 68000.0,
+      "amount_return": 0.0,
+      "user_id": 22,
+      "user_name": "User POS CN2",
+      "session_id": 747,
+      "session_name": "POS/00747",
+      "lines": [
+        {
+          "id": 292821,
+          "product_id": 2689,
+          "product_code": "F_BM_012",
+          "product_name": "(A3) Bánh Mì Pate Trứng DOUBLE",
+          "name": "CN2/237148",
+          "qty": 1.0,
+          "price_unit": 39000.0,
+          "discount": 0.0,
+          "price_subtotal": 36111.0,
+          "price_subtotal_incl": 39000.0,
+          "uom_id": 55,
+          "uom_name": "phần"
+        },
+        {
+          "id": 292822,
+          "product_id": 2489,
+          "product_code": "D_CT_002",
+          "product_name": "(D7) Cà Phê Sữa Đá",
+          "name": "CN2/237149",
+          "qty": 1.0,
+          "price_unit": 29000.0,
+          "discount": 0.0,
+          "price_subtotal": 26852.0,
+          "price_subtotal_incl": 29000.0,
+          "uom_id": 55,
+          "uom_name": "phần"
+        }
+      ],
+      "payments": [
+        {
+          "id": 176534,
+          "name": false,
+          "amount": 68000.0,
+          "payment_method_id": 40,
+          "payment_method_name": "VNPayQR",
+          "payment_date": "2026-04-01 05:05:47",
+          "is_change": false
+        }
+      ]
+    },
+    {
+      "id": 176741,
+      "name": "S02/143755",
+      "date_order": "2026-04-01T05:15:54Z",
+      "pos_reference": "Order 00747-001-0047",
+      "partner_id": 950,
+      "partner_name": "Khách lẻ",
+      "state": "invoiced",
+      "amount_total": 29000.0,
+      "amount_tax": 2148.0,
+      "amount_paid": 29000.0,
+      "amount_return": 0.0,
+      "user_id": 22,
+      "user_name": "User POS CN2",
+      "session_id": 747,
+      "session_name": "POS/00747",
+      "lines": [
+        {
+          "id": 292832,
+          "product_id": 2490,
+          "product_code": "D_CT_003",
+          "product_name": "(D9) Expresso",
+          "name": "CN2/237159",
+          "qty": 1.0,
+          "price_unit": 29000.0,
+          "discount": 0.0,
+          "price_subtotal": 26852.0,
+          "price_subtotal_incl": 29000.0,
+          "uom_id": 55,
+          "uom_name": "phần"
+        }
+      ],
+      "payments": [
+        {
+          "id": 176540,
+          "name": false,
+          "amount": 29000.0,
+          "payment_method_id": 40,
+          "payment_method_name": "VNPayQR",
+          "payment_date": "2026-04-01 05:15:54",
+          "is_change": false
+        }
+      ]
+    },
+    {
+      "id": 176763,
+      "name": "S02/143777",
+      "date_order": "2026-04-01T07:45:12Z",
+      "pos_reference": "Order 00747-001-0070",
+      "partner_id": 950,
+      "partner_name": "Khách lẻ",
+      "state": "invoiced",
+      "amount_total": 39000.0,
+      "amount_tax": 2889.0,
+      "amount_paid": 39000.0,
+      "amount_return": 0.0,
+      "user_id": 22,
+      "user_name": "User POS CN2",
+      "session_id": 747,
+      "session_name": "POS/00747",
+      "lines": [
+        {
+          "id": 292874,
+          "product_id": 2480,
+          "product_code": "F_BM_005",
+          "product_name": "(A8) Bánh Mì Veggy Nấm Tứ Xuyên",
+          "name": "CN2/237201",
+          "qty": 1.0,
+          "price_unit": 39000.0,
+          "discount": 0.0,
+          "price_subtotal": 36111.0,
+          "price_subtotal_incl": 39000.0,
+          "uom_id": 55,
+          "uom_name": "phần"
+        }
+      ],
+      "payments": [
+        {
+          "id": 176566,
+          "name": false,
+          "amount": 39000.0,
+          "payment_method_id": 40,
+          "payment_method_name": "VNPayQR",
+          "payment_date": "2026-04-01 07:45:12",
+          "is_change": false
+        }
+      ]
+    },
+    {
+      "id": 176775,
+      "name": "S02/143789",
+      "date_order": "2026-04-01T10:37:18Z",
+      "pos_reference": "Order 00747-001-0084",
+      "partner_id": 950,
+      "partner_name": "Khách lẻ",
+      "state": "invoiced",
+      "amount_total": 39000.0,
+      "amount_tax": 2889.0,
+      "amount_paid": 39000.0,
+      "amount_return": 0.0,
+      "user_id": 22,
+      "user_name": "User POS CN2",
+      "session_id": 747,
+      "session_name": "POS/00747",
+      "lines": [
+        {
+          "id": 292892,
+          "product_id": 2485,
+          "product_code": "F_BM_010",
+          "product_name": "(A9) Bánh Mì Gà Xé Bơ Tỏi",
+          "name": "CN2/237219",
+          "qty": 1.0,
+          "price_unit": 39000.0,
+          "discount": 0.0,
+          "price_subtotal": 36111.0,
+          "price_subtotal_incl": 39000.0,
+          "uom_id": 55,
+          "uom_name": "phần"
+        }
+      ],
+      "payments": [
+        {
+          "id": 176583,
+          "name": false,
+          "amount": 39000.0,
+          "payment_method_id": 40,
+          "payment_method_name": "VNPayQR",
+          "payment_date": "2026-04-01 10:37:18",
+          "is_change": false
+        }
+      ]
+    }
+  ]
+}
