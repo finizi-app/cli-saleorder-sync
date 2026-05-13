@@ -204,6 +204,27 @@ python -m src.b4b_import_cli \
     --no-invoice
 ```
 
+### Automated Daily Sync
+
+For daily operations, use the automated sync scripts:
+
+```bash
+# Quick daily sync (today's VNPay/VNPayQR orders → B4B → Invoices)
+./sync-daily.sh
+
+# Full control with options
+./sync-odoo-to-b4b.py                          # Today, default methods
+./sync-odoo-to-b4b.py --date 2026-04-01        # Specific date
+./sync-odoo-to-b4b.py --dry-run                # Preview only
+./sync-odoo-to-b4b.py --payment-methods VNPay VNPayQR Thẻ ATM  # Custom
+```
+
+**Automated workflow:**
+1. Exports Odoo POS orders (handles multiple payment methods)
+2. Combines exports into single JSON file
+3. Imports to B4B as sale orders
+4. Generates POS invoices (auto-released, signed, tax-sent)
+
 ## Error Handling
 
 The tool includes comprehensive error handling for:

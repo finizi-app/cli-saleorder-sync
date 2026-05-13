@@ -3,3 +3,4 @@ Collecting pyyaml>=6.0
 Downloading pyyaml-6.0.3-cp39-cp39-macosx_11_0_arm64.whl (174 kB)
 Installing collected packages: pyyaml
 Successfully installed pyyaml-6.0.3
+/Users/trunghuynh/dev/personal/odoo-sync/.claude/skills/install.sh: line 326: pip: command not found

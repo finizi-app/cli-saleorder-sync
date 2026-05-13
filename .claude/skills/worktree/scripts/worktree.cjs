@@ -16,6 +16,7 @@
  *   --json                 Output in JSON format for LLM consumption
  *   --env <files>          Comma-separated list of .env files to copy (legacy)
  *   --dry-run              Show what would be done without executing
+ *   --no-prefix            Skip branch prefix and preserve original case
  */
 
 const { execSync } = require('child_process');
@@ -80,6 +81,11 @@ if (envIndex > -1) {
 const dryRunIndex = args.indexOf('--dry-run');
 const dryRun = dryRunIndex > -1;
 if (dryRunIndex > -1) args.splice(dryRunIndex, 1);
+
+// --no-prefix: skip branch prefix and preserve original case in feature name
+const noPrefixIndex = args.indexOf('--no-prefix');
+const noPrefix = noPrefixIndex > -1;
+if (noPrefixIndex > -1) args.splice(noPrefixIndex, 1);
 
 // --worktree-root: explicit override for worktree location (Claude's decision)
 const worktreeRootIndex = args.indexOf('--worktree-root');
@@ -446,16 +452,20 @@ function branchExists(branchName, cwd) {
 }
 
 // Sanitize feature name to valid branch name
-function sanitizeFeatureName(name) {
+function sanitizeFeatureName(name, preserveCase = false) {
   const raw = String(name || '').trim();
   if (!raw) return '';
 
   // Keep ASCII branch names; drop diacritics first for better readability.
-  const ascii = raw
+  let ascii = raw
     .normalize('NFKD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .toLowerCase()
-    .replace(/[^a-z0-9-]/g, '-')
+    .replace(/[\u0300-\u036f]/g, '');
+
+  // When preserveCase is true (--no-prefix), keep original casing
+  if (!preserveCase) ascii = ascii.toLowerCase();
+
+  ascii = ascii
+    .replace(preserveCase ? /[^a-zA-Z0-9-]/g : /[^a-z0-9-]/g, '-')
     .replace(/-+/g, '-')
     .replace(/^-|-$/g, '')
     .slice(0, 50); // Limit length
@@ -628,7 +638,7 @@ function cmdCreate() {
   }
 
   // Sanitize feature name
-  const sanitizedFeature = sanitizeFeatureName(feature);
+  const sanitizedFeature = sanitizeFeatureName(feature, noPrefix);
   if (!sanitizedFeature) {
     outputError('INVALID_FEATURE_NAME', 'Feature name became empty after sanitization', {
       suggestion: 'Use letters/numbers in feature name (example: "login-validation")'
@@ -638,8 +648,8 @@ function cmdCreate() {
     warnings.push(`Feature name sanitized: "${feature}" → "${sanitizedFeature}"`);
   }
 
-  // Create branch name
-  const branchName = `${branchPrefix}/${sanitizedFeature}`;
+  // Create branch name — --no-prefix uses sanitized feature as-is
+  const branchName = noPrefix ? sanitizedFeature : `${branchPrefix}/${sanitizedFeature}`;
 
   // Detect base branch
   const baseBranch = detectBaseBranch(workDir);

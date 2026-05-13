@@ -86,3 +86,49 @@ We keep all important docs in `./docs` folder and keep updating them, structure 
 ```
 
 **IMPORTANT:** *MUST READ* and *MUST COMPLY* all *INSTRUCTIONS* in project `./CLAUDE.md`, especially *WORKFLOWS* section is *CRITICALLY IMPORTANT*, this rule is *MANDATORY. NON-NEGOTIABLE. NO EXCEPTIONS. MUST REMEMBER AT ALL TIMES!!!*
+
+## Daily Operations
+
+### Odoo to B4B Sync
+
+Automated scripts for daily POS order synchronization:
+
+**Quick Daily Sync (default: today, VNPay + VNPayQR):**
+```bash
+./sync-daily.sh
+```
+
+**Full Control (Python script):**
+```bash
+# Sync today's orders with default payment methods
+./sync-odoo-to-b4b.py
+
+# Sync specific date
+./sync-odoo-to-b4b.py --date 2026-04-01
+
+# Dry run preview
+./sync-odoo-to-b4b.py --dry-run
+
+# Custom payment methods
+./sync-odoo-to-b4b.py --payment-methods VNPay VNPayQR Thẻ ATM
+
+# Export only (skip B4B import)
+./sync-odoo-to-b4b.py --export-only
+
+# Import existing file to B4B
+./sync-odoo-to-b4b.py --import-only --input odoo-orders-2026-04-01.json
+```
+
+**Workflow:**
+1. Exports Odoo POS orders for specified date + payment methods
+2. Combines multiple payment method exports into single file
+3. Imports to B4B as sale orders
+4. Generates POS invoices (auto-released, signed, tax-sent)
+
+**Credentials Required:**
+- `.env` file with ODOO_URL, ODOO_DB, ODOO_USERNAME, ODOO_PASSWORD
+- `.env` file with B4B_API_URL, B4B_TOKEN, B4B_ENTITY_ID
+
+**Output Files:**
+- Export: `odoo-orders-{date}-{methods}.json` (auto-generated)
+- Logs: Printed to stdout with timestamps

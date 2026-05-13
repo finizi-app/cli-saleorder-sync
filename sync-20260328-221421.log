@@ -1,0 +1,2349 @@
+2026-03-28 22:14:21,802 - __main__ - INFO - Connecting to https://erp.patedeli.com...
+2026-03-28 22:14:21,963 - src.client - INFO - Connected to Odoo 16.0+e-20230416
+2026-03-28 22:14:22,659 - src.client - INFO - Authenticated as user ID: 21
+2026-03-28 22:14:22,660 - __main__ - INFO - Importing orders for 2026-03-27 (Asia/Ho_Chi_Minh)...
+2026-03-28 22:14:22,686 - src.importer - INFO - Querying orders from 2026-03-26 17:00:00 to 2026-03-27 16:59:59 UTC
+2026-03-28 22:14:23,066 - src.importer - INFO - Found 79 orders
+2026-03-28 22:14:23,934 - src.importer - INFO - Fetched 117 order lines
+2026-03-28 22:14:24,080 - src.importer - INFO - Fetched 35 products for UOM
+2026-03-28 22:14:24,185 - src.importer - INFO - Fetched 89 payments
+2026-03-28 22:14:24,187 - __main__ - INFO - Imported 79 orders
+2026-03-28 22:14:24,188 - __main__ - INFO - Output written to /Users/trunghuynh/dev/personal/odoo-sync/odoo-orders-2026-03-27.json
+2026-03-28 22:14:24,327 - INFO - Loaded 79 orders from /Users/trunghuynh/dev/personal/odoo-sync/odoo-orders-2026-03-27.json
+2026-03-28 22:14:24,327 - INFO - Mapped 79 orders to B4B format
+2026-03-28 22:14:24,327 - INFO - Dry run complete - no orders uploaded
+[
+  {
+    "order_number": "S02/143388",
+    "reference_number": "Order 00742-001-0001",
+    "order_date": "2026-03-26",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "VNPAY",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_BM_010",
+        "item_name": "(A9) Bánh Mì Gà Xé Bơ Tỏi",
+        "description": "CN2/236607",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 36111.0,
+        "unit_price_with_tax": 39000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143389",
+    "reference_number": "Order 00742-001-0002",
+    "order_date": "2026-03-26",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "VNPAY",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "D_CT_004",
+        "item_name": "(D8) Americano",
+        "description": "CN2/236608",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 26852.0,
+        "unit_price_with_tax": 29000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143390",
+    "reference_number": "Order 00742-001-0003",
+    "order_date": "2026-03-26",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "VNPAY",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "D_CT_002",
+        "item_name": "(D7) Cà Phê Sữa Đá",
+        "description": "CN2/236609",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 26852.0,
+        "unit_price_with_tax": 29000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      },
+      {
+        "line_number": 2,
+        "item_code": "F_BM_004",
+        "item_name": "(A7) Bánh Mì Heo Nướng Teriyaki",
+        "description": "CN2/236610",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 36111.0,
+        "unit_price_with_tax": 39000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143391",
+    "reference_number": "Order 00742-001-0004",
+    "order_date": "2026-03-26",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "VNPAY",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_BM_002",
+        "item_name": "(A2) Bánh Mì Pate Trứng",
+        "description": "CN2/236611",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 30556.0,
+        "unit_price_with_tax": 33000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      },
+      {
+        "line_number": 2,
+        "item_code": "D_CT_004",
+        "item_name": "(D8) Americano",
+        "description": "CN2/236612",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 26852.0,
+        "unit_price_with_tax": 29000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143392",
+    "reference_number": "Order 00742-001-0005",
+    "order_date": "2026-03-26",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "CASH",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "D_SD_003",
+        "item_name": "Aquafina 500ml",
+        "description": "CN2/236613",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 13889.0,
+        "unit_price_with_tax": 15000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143393",
+    "reference_number": "Order 00742-001-0006",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "VNPAYQR",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_XOI_002",
+        "item_name": "(B2) Xôi Gà Xé",
+        "description": "CN2/236614",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 41667.0,
+        "unit_price_with_tax": 45000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143394",
+    "reference_number": "Order 00742-001-0007",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "TM",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "D_CT_001",
+        "item_name": "(D6) Cà Phê Đen Đá",
+        "description": "CN2/236615",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 23148.0,
+        "unit_price_with_tax": 25000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      },
+      {
+        "line_number": 2,
+        "item_code": "D_SD_003",
+        "item_name": "Aquafina 500ml",
+        "description": "CN2/236616",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 13889.0,
+        "unit_price_with_tax": 15000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143395",
+    "reference_number": "Order 00742-001-0008",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "TM",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "D_CT_005",
+        "item_name": "(D10) Latte Đá",
+        "description": "CN2/236617",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 32407.0,
+        "unit_price_with_tax": 35000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143396",
+    "reference_number": "Order 00742-001-0009",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "TM",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "D_SD_003",
+        "item_name": "Aquafina 500ml",
+        "description": "CN2/236618",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 13889.0,
+        "unit_price_with_tax": 15000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143397",
+    "reference_number": "Order 00742-001-0010",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "CASH",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_BM_009",
+        "item_name": "(A6) Bánh Mì Xá Xíu",
+        "description": "CN2/236619",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 36111.0,
+        "unit_price_with_tax": 39000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143398",
+    "reference_number": "Order 00742-001-0011",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "CASH",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_BM_012",
+        "item_name": "(A3) Bánh Mì Pate Trứng DOUBLE",
+        "description": "CN2/236620",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 36111.0,
+        "unit_price_with_tax": 39000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143399",
+    "reference_number": "Order 00742-001-0012",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "VNPAY",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_BM_010",
+        "item_name": "(A9) Bánh Mì Gà Xé Bơ Tỏi",
+        "description": "CN2/236621",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 36111.0,
+        "unit_price_with_tax": 39000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143400",
+    "reference_number": "Order 00742-001-0013",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "VNPAY",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_BM_004",
+        "item_name": "(A7) Bánh Mì Heo Nướng Teriyaki",
+        "description": "CN2/236622",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 36111.0,
+        "unit_price_with_tax": 39000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143401",
+    "reference_number": "Order 00742-001-0014",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "TM",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "D_CT_004",
+        "item_name": "(D8) Americano",
+        "description": "CN2/236623",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 26852.0,
+        "unit_price_with_tax": 29000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143402",
+    "reference_number": "Order 00742-001-0015",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "CASH",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_BM_007",
+        "item_name": "(A11) Bánh Mì Bò Kho",
+        "description": "CN2/236624",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 50926.0,
+        "unit_price_with_tax": 55000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143403",
+    "reference_number": "Order 00742-001-0016",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "VNPAY",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_XOI_002",
+        "item_name": "(B2) Xôi Gà Xé",
+        "description": "CN2/236625",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 41667.0,
+        "unit_price_with_tax": 45000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      },
+      {
+        "line_number": 2,
+        "item_code": "D_CT_001",
+        "item_name": "(D6) Cà Phê Đen Đá",
+        "description": "CN2/236626",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 23148.0,
+        "unit_price_with_tax": 25000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143404",
+    "reference_number": "Order 00742-001-0017",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "CASH",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_BM_009",
+        "item_name": "(A6) Bánh Mì Xá Xíu",
+        "description": "CN2/236627",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 36111.0,
+        "unit_price_with_tax": 39000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      },
+      {
+        "line_number": 2,
+        "item_code": "D_SD_008",
+        "item_name": "7Up 320ml ( Lon)",
+        "description": "CN2/236628",
+        "quantity": 1.0,
+        "unit_of_measure": "lon",
+        "unit_price_without_tax": 18519.0,
+        "unit_price_with_tax": 20000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143405",
+    "reference_number": "Order 00742-001-0018",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "TM",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_BM_005",
+        "item_name": "(A8) Bánh Mì Veggy Nấm Tứ Xuyên",
+        "description": "CN2/236629",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 36111.0,
+        "unit_price_with_tax": 39000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      },
+      {
+        "line_number": 2,
+        "item_code": "D_CT_007",
+        "item_name": "(D2) Sâm Bí Đao Hạt Chia",
+        "description": "CN2/236630",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 23148.0,
+        "unit_price_with_tax": 25000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143406",
+    "reference_number": "Order 00742-001-0019",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "TM",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_BM_003",
+        "item_name": "(A4) Bánh Mì Thập Cẩm",
+        "description": "CN2/236631",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 36111.0,
+        "unit_price_with_tax": 39000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      },
+      {
+        "line_number": 2,
+        "item_code": "D_SD_003",
+        "item_name": "Aquafina 500ml",
+        "description": "CN2/236632",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 13889.0,
+        "unit_price_with_tax": 15000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143407",
+    "reference_number": "Order 00742-001-0020",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "TM",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_BM_005",
+        "item_name": "(A8) Bánh Mì Veggy Nấm Tứ Xuyên",
+        "description": "CN2/236633",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 36111.0,
+        "unit_price_with_tax": 39000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      },
+      {
+        "line_number": 2,
+        "item_code": "D_SD_003",
+        "item_name": "Aquafina 500ml",
+        "description": "CN2/236634",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 13889.0,
+        "unit_price_with_tax": 15000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143408",
+    "reference_number": "Order 00742-001-0022",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "TM",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "D_NC_001",
+        "item_name": "(D3) Nước cam tươi",
+        "description": "CN2/236635",
+        "quantity": 1.0,
+        "unit_of_measure": "ly",
+        "unit_price_without_tax": 32407.0,
+        "unit_price_with_tax": 35000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143409",
+    "reference_number": "Order 00742-001-0027",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "TM",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "BM029",
+        "item_name": "Bánh Mì Không",
+        "description": "CN2/236636",
+        "quantity": 1.0,
+        "unit_of_measure": "cái",
+        "unit_price_without_tax": 4630.0,
+        "unit_price_with_tax": 5000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.0799
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143410",
+    "reference_number": "Order 00742-001-0028",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "TM",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "DU-F-002",
+        "item_name": "Sữa Chua Lắc Đá",
+        "description": "CN2/236637",
+        "quantity": 1.0,
+        "unit_of_measure": "ly",
+        "unit_price_without_tax": 27778.0,
+        "unit_price_with_tax": 30000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      },
+      {
+        "line_number": 2,
+        "item_code": "F_BM_010",
+        "item_name": "(A9) Bánh Mì Gà Xé Bơ Tỏi",
+        "description": "CN2/236638",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 36111.0,
+        "unit_price_with_tax": 39000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143411",
+    "reference_number": "Order 00742-001-0029",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "TM",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "D_SD_009",
+        "item_name": "Pepsi Black 320ml ( Lon)",
+        "description": "CN2/236639",
+        "quantity": 1.0,
+        "unit_of_measure": "lon",
+        "unit_price_without_tax": 18519.0,
+        "unit_price_with_tax": 20000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143412",
+    "reference_number": "Order 00742-001-0030",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "TM",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_MT_001",
+        "item_name": "(B3) Mì Trộn Xá Xíu",
+        "description": "CN2/236640",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 45370.0,
+        "unit_price_with_tax": 49000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143413",
+    "reference_number": "Order 00742-001-0031",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "TM",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_BM_010",
+        "item_name": "(A9) Bánh Mì Gà Xé Bơ Tỏi",
+        "description": "CN2/236641",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 36111.0,
+        "unit_price_with_tax": 39000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143414",
+    "reference_number": "Order 00742-001-0032",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "CASH",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "D_SD_009",
+        "item_name": "Pepsi Black 320ml ( Lon)",
+        "description": "CN2/236642",
+        "quantity": 2.0,
+        "unit_of_measure": "lon",
+        "unit_price_without_tax": 18518.5,
+        "unit_price_with_tax": 20000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143415",
+    "reference_number": "Order 00742-001-0037",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "CASH",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_BM_010",
+        "item_name": "(A9) Bánh Mì Gà Xé Bơ Tỏi",
+        "description": "CN2/236643",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 36111.0,
+        "unit_price_with_tax": 39000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      },
+      {
+        "line_number": 2,
+        "item_code": "D_SD_004",
+        "item_name": "Trà Ô long Tea Plus ( chai 450ml)",
+        "description": "CN2/236644",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 18519.0,
+        "unit_price_with_tax": 20000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143416",
+    "reference_number": "Order 00742-001-0039",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "VNPAY",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_BM_007",
+        "item_name": "(A11) Bánh Mì Bò Kho",
+        "description": "CN2/236645",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 50926.0,
+        "unit_price_with_tax": 55000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143417",
+    "reference_number": "Order 00742-001-0038",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "CASH",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "D_SD_009",
+        "item_name": "Pepsi Black 320ml ( Lon)",
+        "description": "CN2/236646",
+        "quantity": 1.0,
+        "unit_of_measure": "lon",
+        "unit_price_without_tax": 18519.0,
+        "unit_price_with_tax": 20000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143418",
+    "reference_number": "Order 00742-001-0036",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "CASH",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_BM_010",
+        "item_name": "(A9) Bánh Mì Gà Xé Bơ Tỏi",
+        "description": "CN2/236647",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 36111.0,
+        "unit_price_with_tax": 39000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      },
+      {
+        "line_number": 2,
+        "item_code": "D_SD_0015",
+        "item_name": "Revive Chanh muối",
+        "description": "CN2/236648",
+        "quantity": 1.0,
+        "unit_of_measure": "chai",
+        "unit_price_without_tax": 18519.0,
+        "unit_price_with_tax": 20000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      },
+      {
+        "line_number": 3,
+        "item_code": "BM029",
+        "item_name": "Bánh Mì Không",
+        "description": "CN2/236649",
+        "quantity": 1.0,
+        "unit_of_measure": "cái",
+        "unit_price_without_tax": 4630.0,
+        "unit_price_with_tax": 5000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.0799
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143419",
+    "reference_number": "Order 00742-001-0024",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "TM",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "D_SD_003",
+        "item_name": "Aquafina 500ml",
+        "description": "CN2/236650",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 13889.0,
+        "unit_price_with_tax": 15000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      },
+      {
+        "line_number": 2,
+        "item_code": "D_SD_009",
+        "item_name": "Pepsi Black 320ml ( Lon)",
+        "description": "CN2/236651",
+        "quantity": 1.0,
+        "unit_of_measure": "lon",
+        "unit_price_without_tax": 18519.0,
+        "unit_price_with_tax": 20000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143420",
+    "reference_number": "Order 00742-001-0023",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "TM",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "D_NC_001",
+        "item_name": "(D3) Nước cam tươi",
+        "description": "CN2/236652",
+        "quantity": 1.0,
+        "unit_of_measure": "ly",
+        "unit_price_without_tax": 32407.0,
+        "unit_price_with_tax": 35000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      },
+      {
+        "line_number": 2,
+        "item_code": "D_CT_001",
+        "item_name": "(D6) Cà Phê Đen Đá",
+        "description": "CN2/236653",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 23148.0,
+        "unit_price_with_tax": 25000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143421",
+    "reference_number": "Order 00742-001-0041",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "Hình thức khác",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_BM_007",
+        "item_name": "(A11) Bánh Mì Bò Kho",
+        "description": "CN2/236654",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 50926.0,
+        "unit_price_with_tax": 55000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143422",
+    "reference_number": "Order 00742-001-0021",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "VNPAYQR",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_BM_008",
+        "item_name": "(A10) Bánh Mì Xíu Mại",
+        "description": "CN2/236655",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 45370.0,
+        "unit_price_with_tax": 49000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      },
+      {
+        "line_number": 2,
+        "item_code": "F_TOP_002",
+        "item_name": "Topping Trứng",
+        "description": "CN2/236656",
+        "quantity": 2.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 10000.0,
+        "unit_price_with_tax": 10000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.0
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143423",
+    "reference_number": "Order 00742-001-0042",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "CASH",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_BM_008",
+        "item_name": "(A10) Bánh Mì Xíu Mại",
+        "description": "CN2/236657",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 45370.0,
+        "unit_price_with_tax": 49000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143424",
+    "reference_number": "Order 00742-001-0034",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "CASH",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_BM_004",
+        "item_name": "(A7) Bánh Mì Heo Nướng Teriyaki",
+        "description": "CN2/236658",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 36111.0,
+        "unit_price_with_tax": 39000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      },
+      {
+        "line_number": 2,
+        "item_code": "F_BM_009",
+        "item_name": "(A6) Bánh Mì Xá Xíu",
+        "description": "CN2/236659",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 36111.0,
+        "unit_price_with_tax": 39000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      },
+      {
+        "line_number": 3,
+        "item_code": "D_SD_003",
+        "item_name": "Aquafina 500ml",
+        "description": "CN2/236660",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 13889.0,
+        "unit_price_with_tax": 15000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143425",
+    "reference_number": "Order 00742-001-0044",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "TM",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "D_SD_007",
+        "item_name": "Pepsi 320ml ( Lon)",
+        "description": "CN2/236661",
+        "quantity": 1.0,
+        "unit_of_measure": "lon",
+        "unit_price_without_tax": 18519.0,
+        "unit_price_with_tax": 20000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143426",
+    "reference_number": "Order 00742-001-0045",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "Hình thức khác",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_MT_001",
+        "item_name": "(B3) Mì Trộn Xá Xíu",
+        "description": "CN2/236662",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 45370.0,
+        "unit_price_with_tax": 49000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143427",
+    "reference_number": "Order 00742-001-0046",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "TM",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_BM_012",
+        "item_name": "(A3) Bánh Mì Pate Trứng DOUBLE",
+        "description": "CN2/236663",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 36111.0,
+        "unit_price_with_tax": 39000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      },
+      {
+        "line_number": 2,
+        "item_code": "D_SD_009",
+        "item_name": "Pepsi Black 320ml ( Lon)",
+        "description": "CN2/236664",
+        "quantity": 1.0,
+        "unit_of_measure": "lon",
+        "unit_price_without_tax": 18519.0,
+        "unit_price_with_tax": 20000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143428",
+    "reference_number": "Order 00742-001-0047",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "TM",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "D_SD_003",
+        "item_name": "Aquafina 500ml",
+        "description": "CN2/236665",
+        "quantity": 2.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 13889.0,
+        "unit_price_with_tax": 15000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143429",
+    "reference_number": "Order 00742-001-0025",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "VNPAYQR",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "D_SD_005",
+        "item_name": "Nước tăng lực Redbull ( lon 250ml)",
+        "description": "CN2/236666",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 23148.0,
+        "unit_price_with_tax": 25000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      },
+      {
+        "line_number": 2,
+        "item_code": "D_SD_006",
+        "item_name": "Coca Cola Zero",
+        "description": "CN2/236667",
+        "quantity": 1.0,
+        "unit_of_measure": "chai",
+        "unit_price_without_tax": 18519.0,
+        "unit_price_with_tax": 20000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143430",
+    "reference_number": "Order 00742-001-0048",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "TM",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_BM_002",
+        "item_name": "(A2) Bánh Mì Pate Trứng",
+        "description": "CN2/236668",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 30556.0,
+        "unit_price_with_tax": 33000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      },
+      {
+        "line_number": 2,
+        "item_code": "D_CT_002",
+        "item_name": "(D7) Cà Phê Sữa Đá",
+        "description": "CN2/236669",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 26852.0,
+        "unit_price_with_tax": 29000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143431",
+    "reference_number": "Order 00742-001-0050",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "VNPAY",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_BM_010",
+        "item_name": "(A9) Bánh Mì Gà Xé Bơ Tỏi",
+        "description": "CN2/236670",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 36111.0,
+        "unit_price_with_tax": 39000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      },
+      {
+        "line_number": 2,
+        "item_code": null,
+        "item_name": "Nước Ép Dưa Hấu Hạt Chia",
+        "description": "CN2/236671",
+        "quantity": 1.0,
+        "unit_of_measure": "ly",
+        "unit_price_without_tax": 32407.0,
+        "unit_price_with_tax": 35000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143432",
+    "reference_number": "Order 00742-001-0051",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "CASH",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_BM_012",
+        "item_name": "(A3) Bánh Mì Pate Trứng DOUBLE",
+        "description": "CN2/236672",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 36111.0,
+        "unit_price_with_tax": 39000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143433",
+    "reference_number": "Order 00742-001-0052",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "TM",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_BM_003",
+        "item_name": "(A4) Bánh Mì Thập Cẩm",
+        "description": "CN2/236673",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 36111.0,
+        "unit_price_with_tax": 39000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      },
+      {
+        "line_number": 2,
+        "item_code": "F_TOP_002",
+        "item_name": "Topping Trứng",
+        "description": "CN2/236674",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 10000.0,
+        "unit_price_with_tax": 10000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.0
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143434",
+    "reference_number": "Order 00742-001-0053",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "TM",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_BM_012",
+        "item_name": "(A3) Bánh Mì Pate Trứng DOUBLE",
+        "description": "CN2/236675",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 36111.0,
+        "unit_price_with_tax": 39000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      },
+      {
+        "line_number": 2,
+        "item_code": "F_BM_008",
+        "item_name": "(A10) Bánh Mì Xíu Mại",
+        "description": "CN2/236676",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 45370.0,
+        "unit_price_with_tax": 49000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143435",
+    "reference_number": "Order 00742-001-0054",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "CASH",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_BM_009",
+        "item_name": "(A6) Bánh Mì Xá Xíu",
+        "description": "CN2/236677",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 36111.0,
+        "unit_price_with_tax": 39000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      },
+      {
+        "line_number": 2,
+        "item_code": "F_BM_004",
+        "item_name": "(A7) Bánh Mì Heo Nướng Teriyaki",
+        "description": "CN2/236678",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 36111.0,
+        "unit_price_with_tax": 39000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      },
+      {
+        "line_number": 3,
+        "item_code": "FR_001",
+        "item_name": "Chuối Trái",
+        "description": "CN2/236679",
+        "quantity": 2.0,
+        "unit_of_measure": "trái",
+        "unit_price_without_tax": 11111.0,
+        "unit_price_with_tax": 12000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143436",
+    "reference_number": "Order 00742-001-0049",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "TM",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_BM_010",
+        "item_name": "(A9) Bánh Mì Gà Xé Bơ Tỏi",
+        "description": "CN2/236680",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 36111.0,
+        "unit_price_with_tax": 39000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      },
+      {
+        "line_number": 2,
+        "item_code": "D_SD_003",
+        "item_name": "Aquafina 500ml",
+        "description": "CN2/236681",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 13889.0,
+        "unit_price_with_tax": 15000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143437",
+    "reference_number": "Order 00742-001-0056",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "CASH",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "D_SD_009",
+        "item_name": "Pepsi Black 320ml ( Lon)",
+        "description": "CN2/236682",
+        "quantity": 1.0,
+        "unit_of_measure": "lon",
+        "unit_price_without_tax": 18519.0,
+        "unit_price_with_tax": 20000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143438",
+    "reference_number": "Order 00742-001-0057",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "CASH",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_BM_004",
+        "item_name": "(A7) Bánh Mì Heo Nướng Teriyaki",
+        "description": "CN2/236683",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 36111.0,
+        "unit_price_with_tax": 39000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      },
+      {
+        "line_number": 2,
+        "item_code": "D_SD_003",
+        "item_name": "Aquafina 500ml",
+        "description": "CN2/236684",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 13889.0,
+        "unit_price_with_tax": 15000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143439",
+    "reference_number": "Order 00742-001-0058",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "CASH",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_BM_004",
+        "item_name": "(A7) Bánh Mì Heo Nướng Teriyaki",
+        "description": "CN2/236685",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 36111.0,
+        "unit_price_with_tax": 39000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143440",
+    "reference_number": "Order 00742-001-0059",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "CASH",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_BM_005",
+        "item_name": "(A8) Bánh Mì Veggy Nấm Tứ Xuyên",
+        "description": "CN2/236686",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 36111.0,
+        "unit_price_with_tax": 39000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143441",
+    "reference_number": "Order 00742-001-0060",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "CASH",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "D_CT_001",
+        "item_name": "(D6) Cà Phê Đen Đá",
+        "description": "CN2/236687",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 23148.0,
+        "unit_price_with_tax": 25000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143442",
+    "reference_number": "Order 00742-001-0061",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "CASH",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_BM_004",
+        "item_name": "(A7) Bánh Mì Heo Nướng Teriyaki",
+        "description": "CN2/236688",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 36111.0,
+        "unit_price_with_tax": 39000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      },
+      {
+        "line_number": 2,
+        "item_code": "F_BM_010",
+        "item_name": "(A9) Bánh Mì Gà Xé Bơ Tỏi",
+        "description": "CN2/236689",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 36111.0,
+        "unit_price_with_tax": 39000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      },
+      {
+        "line_number": 3,
+        "item_code": "D_SD_006",
+        "item_name": "Coca Cola Zero",
+        "description": "CN2/236690",
+        "quantity": 1.0,
+        "unit_of_measure": "chai",
+        "unit_price_without_tax": 18519.0,
+        "unit_price_with_tax": 20000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      },
+      {
+        "line_number": 4,
+        "item_code": "D_SD_003",
+        "item_name": "Aquafina 500ml",
+        "description": "CN2/236691",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 13889.0,
+        "unit_price_with_tax": 15000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143443",
+    "reference_number": "Order 00742-001-0062",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "TM",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_BM_003",
+        "item_name": "(A4) Bánh Mì Thập Cẩm",
+        "description": "CN2/236692",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 36111.0,
+        "unit_price_with_tax": 39000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      },
+      {
+        "line_number": 2,
+        "item_code": "F_BM_009",
+        "item_name": "(A6) Bánh Mì Xá Xíu",
+        "description": "CN2/236693",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 36111.0,
+        "unit_price_with_tax": 39000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      },
+      {
+        "line_number": 3,
+        "item_code": "D_SD_007",
+        "item_name": "Pepsi 320ml ( Lon)",
+        "description": "CN2/236694",
+        "quantity": 1.0,
+        "unit_of_measure": "lon",
+        "unit_price_without_tax": 18519.0,
+        "unit_price_with_tax": 20000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143444",
+    "reference_number": "Order 00742-001-0063",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "TM",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_BM_004",
+        "item_name": "(A7) Bánh Mì Heo Nướng Teriyaki",
+        "description": "CN2/236695",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 36111.0,
+        "unit_price_with_tax": 39000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      },
+      {
+        "line_number": 2,
+        "item_code": null,
+        "item_name": "Nước Ép Dưa Hấu Hạt Chia",
+        "description": "CN2/236696",
+        "quantity": 1.0,
+        "unit_of_measure": "ly",
+        "unit_price_without_tax": 32407.0,
+        "unit_price_with_tax": 35000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143445",
+    "reference_number": "Order 00742-001-0064",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "CASH",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "D_SD_004",
+        "item_name": "Trà Ô long Tea Plus ( chai 450ml)",
+        "description": "CN2/236697",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 18519.0,
+        "unit_price_with_tax": 20000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143446",
+    "reference_number": "Order 00742-001-0065",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "CASH",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_BM_005",
+        "item_name": "(A8) Bánh Mì Veggy Nấm Tứ Xuyên",
+        "description": "CN2/236698",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 36111.0,
+        "unit_price_with_tax": 39000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143447",
+    "reference_number": "Order 00742-001-0066",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "TM",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "D_BIA_001",
+        "item_name": "Bia Sài Gòn Special ( lon 330ml)",
+        "description": "CN2/236699",
+        "quantity": 2.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 22727.5,
+        "unit_price_with_tax": 25000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.1
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143448",
+    "reference_number": "Order 00742-001-0067",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "CASH",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "D_SD_007",
+        "item_name": "Pepsi 320ml ( Lon)",
+        "description": "CN2/236700",
+        "quantity": 1.0,
+        "unit_of_measure": "lon",
+        "unit_price_without_tax": 18519.0,
+        "unit_price_with_tax": 20000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      },
+      {
+        "line_number": 2,
+        "item_code": "F_BM_009",
+        "item_name": "(A6) Bánh Mì Xá Xíu",
+        "description": "CN2/236701",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 36111.0,
+        "unit_price_with_tax": 39000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143449",
+    "reference_number": "Order 00742-001-0068",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "CASH",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_BM_010",
+        "item_name": "(A9) Bánh Mì Gà Xé Bơ Tỏi",
+        "description": "CN2/236702",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 36111.0,
+        "unit_price_with_tax": 39000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      },
+      {
+        "line_number": 2,
+        "item_code": "D_SD_003",
+        "item_name": "Aquafina 500ml",
+        "description": "CN2/236703",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 13889.0,
+        "unit_price_with_tax": 15000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143450",
+    "reference_number": "Order 00742-001-0069",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "CASH",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "D_SD_007",
+        "item_name": "Pepsi 320ml ( Lon)",
+        "description": "CN2/236704",
+        "quantity": 1.0,
+        "unit_of_measure": "lon",
+        "unit_price_without_tax": 18519.0,
+        "unit_price_with_tax": 20000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      },
+      {
+        "line_number": 2,
+        "item_code": "F_BM_004",
+        "item_name": "(A7) Bánh Mì Heo Nướng Teriyaki",
+        "description": "CN2/236705",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 36111.0,
+        "unit_price_with_tax": 39000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143451",
+    "reference_number": "Order 00742-001-0070",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "TM",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_BM_001",
+        "item_name": "(A1) Bánh Mì Pate Nguyên Bản",
+        "description": "CN2/236706",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 30556.0,
+        "unit_price_with_tax": 33000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143452",
+    "reference_number": "Order 00742-001-0071",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "TM",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "D_BIA_001",
+        "item_name": "Bia Sài Gòn Special ( lon 330ml)",
+        "description": "CN2/236707",
+        "quantity": 2.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 22727.5,
+        "unit_price_with_tax": 25000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.1
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143453",
+    "reference_number": "Order 00742-001-0072",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "CASH",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_BM_012",
+        "item_name": "(A3) Bánh Mì Pate Trứng DOUBLE",
+        "description": "CN2/236708",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 36111.0,
+        "unit_price_with_tax": 39000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      },
+      {
+        "line_number": 2,
+        "item_code": "F_TOP_002",
+        "item_name": "Topping Trứng",
+        "description": "CN2/236709",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 10000.0,
+        "unit_price_with_tax": 10000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.0
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143454",
+    "reference_number": "Order 00742-001-0073",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "VNPAY",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "D_CT_005",
+        "item_name": "(D10) Latte Đá",
+        "description": "CN2/236710",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 32407.0,
+        "unit_price_with_tax": 35000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143455",
+    "reference_number": "Order 00742-001-0074",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "TM",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_BM_009",
+        "item_name": "(A6) Bánh Mì Xá Xíu",
+        "description": "CN2/236711",
+        "quantity": 2.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 36111.0,
+        "unit_price_with_tax": 39000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143456",
+    "reference_number": "Order 00742-001-0075",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "CASH",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "D_CT_003",
+        "item_name": "(D9) Expresso",
+        "description": "CN2/236712",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 26852.0,
+        "unit_price_with_tax": 29000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143457",
+    "reference_number": "Order 00742-001-0076",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "TM",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "D_BIA_001",
+        "item_name": "Bia Sài Gòn Special ( lon 330ml)",
+        "description": "CN2/236713",
+        "quantity": 2.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 22727.5,
+        "unit_price_with_tax": 25000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.1
+      },
+      {
+        "line_number": 2,
+        "item_code": "F_BM_012",
+        "item_name": "(A3) Bánh Mì Pate Trứng DOUBLE",
+        "description": "CN2/236714",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 36111.0,
+        "unit_price_with_tax": 39000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143458",
+    "reference_number": "Order 00742-001-0077",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "VNPAYQR",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_MT_001",
+        "item_name": "(B3) Mì Trộn Xá Xíu",
+        "description": "CN2/236715",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 45370.0,
+        "unit_price_with_tax": 49000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143459",
+    "reference_number": "Order 00742-001-0078",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "TM",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "D_SD_009",
+        "item_name": "Pepsi Black 320ml ( Lon)",
+        "description": "CN2/236716",
+        "quantity": 1.0,
+        "unit_of_measure": "lon",
+        "unit_price_without_tax": 18519.0,
+        "unit_price_with_tax": 20000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143460",
+    "reference_number": "Order 00742-001-0079",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "CASH",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_BM_005",
+        "item_name": "(A8) Bánh Mì Veggy Nấm Tứ Xuyên",
+        "description": "CN2/236717",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 36111.0,
+        "unit_price_with_tax": 39000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143461",
+    "reference_number": "Order 00742-001-0080",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "VNPAYQR",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_TOP_006",
+        "item_name": "Topping Xá Xíu",
+        "description": "CN2/236718",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 10000.0,
+        "unit_price_with_tax": 10000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.0
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143462",
+    "reference_number": "Order 00742-001-0081",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "CASH",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "D_SD_003",
+        "item_name": "Aquafina 500ml",
+        "description": "CN2/236719",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 13889.0,
+        "unit_price_with_tax": 15000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143463",
+    "reference_number": "Order 00742-001-0055",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "TM",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "D_BIA_001",
+        "item_name": "Bia Sài Gòn Special ( lon 330ml)",
+        "description": "CN2/236720",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 22727.0,
+        "unit_price_with_tax": 25000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.1
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143464",
+    "reference_number": "Order 00742-001-0082",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "VNPAY",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_BM_009",
+        "item_name": "(A6) Bánh Mì Xá Xíu",
+        "description": "CN2/236721",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 36111.0,
+        "unit_price_with_tax": 39000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143465",
+    "reference_number": "Order 00742-001-0083",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "VNPAY",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_BM_006",
+        "item_name": "(A5) Bánh Mì Que Pate Chà Bông",
+        "description": "CN2/236722",
+        "quantity": 1.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 23148.0,
+        "unit_price_with_tax": 25000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  },
+  {
+    "order_number": "S02/143466",
+    "reference_number": "Order 00742-001-0084",
+    "order_date": "2026-03-27",
+    "status": "invoiced",
+    "currency": "VND",
+    "payment_method": "CASH",
+    "customer_name": "Khách lẻ",
+    "lines": [
+      {
+        "line_number": 1,
+        "item_code": "F_BM_010",
+        "item_name": "(A9) Bánh Mì Gà Xé Bơ Tỏi",
+        "description": "CN2/236723",
+        "quantity": 2.0,
+        "unit_of_measure": "phần",
+        "unit_price_without_tax": 36111.0,
+        "unit_price_with_tax": 39000.0,
+        "discount_amount": 0.0,
+        "vat_rate": 0.08
+      }
+    ]
+  }
+]
+2026-03-28 22:14:24,387 - INFO - Loaded 79 orders from /Users/trunghuynh/dev/personal/odoo-sync/odoo-orders-2026-03-27.json
+2026-03-28 22:14:24,387 - INFO - Mapped 79 orders to B4B format
+2026-03-28 22:14:24,388 - INFO - Loaded 17 previously processed orders from /Users/trunghuynh/dev/personal/odoo-sync/import-log-2026-03-27.jsonl
+/Users/trunghuynh/dev/personal/odoo-sync/src/b4b_import_cli.py:217: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  timestamp = datetime.utcnow().isoformat() + "Z"
+2026-03-28 22:14:24,388 - INFO - [1/79] Skipped (already processed): S02/143388
+2026-03-28 22:14:24,388 - INFO - [2/79] Skipped (already processed): S02/143389
+2026-03-28 22:14:24,388 - INFO - [3/79] Skipped (already processed): S02/143390
+2026-03-28 22:14:24,388 - INFO - [4/79] Skipped (already processed): S02/143391
+2026-03-28 22:14:25,467 - INFO - HTTP Request: POST https://admin.finizi.ai/api/v1/entities/d570cde5-3d6c-4d27-bf89-427d44413eef/sale-orders "HTTP/1.1 200 OK"
+2026-03-28 22:14:25,468 - INFO - [5/79] Created: S02/143392 (id=d53dd53a-eafe-46f4-9035-c53fbf807dc6)
+2026-03-28 22:14:37,842 - INFO - HTTP Request: POST https://admin.finizi.ai/api/v1/entities/d570cde5-3d6c-4d27-bf89-427d44413eef/sale-orders/d53dd53a-eafe-46f4-9035-c53fbf807dc6/generate-vnpay-invoice?invoice_type=pos&auto_release=true&auto_sign=true&auto_send_tax=true "HTTP/1.1 200 OK"
+2026-03-28 22:14:37,843 - INFO - [5/79] POS invoice generated for: S02/143392
+2026-03-28 22:14:37,844 - INFO - [6/79] Skipped (already processed): S02/143393
+2026-03-28 22:14:39,140 - INFO - HTTP Request: POST https://admin.finizi.ai/api/v1/entities/d570cde5-3d6c-4d27-bf89-427d44413eef/sale-orders "HTTP/1.1 200 OK"
+2026-03-28 22:14:39,141 - INFO - [7/79] Created: S02/143394 (id=1ff855f0-a829-49ca-bdab-2b552707a62e)
+2026-03-28 22:14:40,225 - INFO - HTTP Request: POST https://admin.finizi.ai/api/v1/entities/d570cde5-3d6c-4d27-bf89-427d44413eef/sale-orders/1ff855f0-a829-49ca-bdab-2b552707a62e/generate-vnpay-invoice?invoice_type=pos&auto_release=true&auto_sign=true&auto_send_tax=true "HTTP/1.1 200 OK"
+2026-03-28 22:14:40,225 - INFO - [7/79] POS invoice generated for: S02/143394
+2026-03-28 22:14:40,913 - INFO - HTTP Request: POST https://admin.finizi.ai/api/v1/entities/d570cde5-3d6c-4d27-bf89-427d44413eef/sale-orders "HTTP/1.1 200 OK"
+2026-03-28 22:14:40,913 - INFO - [8/79] Created: S02/143395 (id=f30bbdc3-1d86-4dda-a98e-f2093ec2e4f8)
+2026-03-28 22:14:42,904 - INFO - HTTP Request: POST https://admin.finizi.ai/api/v1/entities/d570cde5-3d6c-4d27-bf89-427d44413eef/sale-orders/f30bbdc3-1d86-4dda-a98e-f2093ec2e4f8/generate-vnpay-invoice?invoice_type=pos&auto_release=true&auto_sign=true&auto_send_tax=true "HTTP/1.1 200 OK"
+2026-03-28 22:14:42,905 - INFO - [8/79] POS invoice generated for: S02/143395
+2026-03-28 22:14:43,392 - INFO - HTTP Request: POST https://admin.finizi.ai/api/v1/entities/d570cde5-3d6c-4d27-bf89-427d44413eef/sale-orders "HTTP/1.1 200 OK"
+2026-03-28 22:14:43,392 - INFO - [9/79] Created: S02/143396 (id=0055b68b-abea-439a-beda-8bf6d085e30a)
+2026-03-28 22:14:44,496 - INFO - HTTP Request: POST https://admin.finizi.ai/api/v1/entities/d570cde5-3d6c-4d27-bf89-427d44413eef/sale-orders/0055b68b-abea-439a-beda-8bf6d085e30a/generate-vnpay-invoice?invoice_type=pos&auto_release=true&auto_sign=true&auto_send_tax=true "HTTP/1.1 200 OK"
+2026-03-28 22:14:44,497 - INFO - [9/79] POS invoice generated for: S02/143396
+2026-03-28 22:14:44,997 - INFO - HTTP Request: POST https://admin.finizi.ai/api/v1/entities/d570cde5-3d6c-4d27-bf89-427d44413eef/sale-orders "HTTP/1.1 200 OK"
+2026-03-28 22:14:44,998 - INFO - [10/79] Created: S02/143397 (id=faa22570-87fa-4337-be59-1b9302ec7a96)
+2026-03-28 22:14:46,465 - INFO - HTTP Request: POST https://admin.finizi.ai/api/v1/entities/d570cde5-3d6c-4d27-bf89-427d44413eef/sale-orders/faa22570-87fa-4337-be59-1b9302ec7a96/generate-vnpay-invoice?invoice_type=pos&auto_release=true&auto_sign=true&auto_send_tax=true "HTTP/1.1 200 OK"
+2026-03-28 22:14:46,466 - INFO - [10/79] POS invoice generated for: S02/143397
+2026-03-28 22:14:46,993 - INFO - HTTP Request: POST https://admin.finizi.ai/api/v1/entities/d570cde5-3d6c-4d27-bf89-427d44413eef/sale-orders "HTTP/1.1 200 OK"
+2026-03-28 22:14:46,993 - INFO - [11/79] Created: S02/143398 (id=0a617d9a-ba8c-42b5-996d-e9f9a63820a2)
+2026-03-28 22:14:47,996 - INFO - HTTP Request: POST https://admin.finizi.ai/api/v1/entities/d570cde5-3d6c-4d27-bf89-427d44413eef/sale-orders/0a617d9a-ba8c-42b5-996d-e9f9a63820a2/generate-vnpay-invoice?invoice_type=pos&auto_release=true&auto_sign=true&auto_send_tax=true "HTTP/1.1 200 OK"
+2026-03-28 22:14:47,996 - INFO - [11/79] POS invoice generated for: S02/143398
+2026-03-28 22:14:47,996 - INFO - [12/79] Skipped (already processed): S02/143399
+2026-03-28 22:14:47,996 - INFO - [13/79] Skipped (already processed): S02/143400
+2026-03-28 22:14:48,499 - INFO - HTTP Request: POST https://admin.finizi.ai/api/v1/entities/d570cde5-3d6c-4d27-bf89-427d44413eef/sale-orders "HTTP/1.1 200 OK"
+2026-03-28 22:14:48,499 - INFO - [14/79] Created: S02/143401 (id=d5ca4600-915e-4334-88ff-5f2b1a671823)
+2026-03-28 22:14:49,513 - INFO - HTTP Request: POST https://admin.finizi.ai/api/v1/entities/d570cde5-3d6c-4d27-bf89-427d44413eef/sale-orders/d5ca4600-915e-4334-88ff-5f2b1a671823/generate-vnpay-invoice?invoice_type=pos&auto_release=true&auto_sign=true&auto_send_tax=true "HTTP/1.1 200 OK"
+2026-03-28 22:14:49,513 - INFO - [14/79] POS invoice generated for: S02/143401
+2026-03-28 22:14:50,028 - INFO - HTTP Request: POST https://admin.finizi.ai/api/v1/entities/d570cde5-3d6c-4d27-bf89-427d44413eef/sale-orders "HTTP/1.1 200 OK"
+2026-03-28 22:14:50,029 - INFO - [15/79] Created: S02/143402 (id=0006d7f4-607c-4327-8251-40e2a391aa6b)
+2026-03-28 22:14:51,102 - INFO - HTTP Request: POST https://admin.finizi.ai/api/v1/entities/d570cde5-3d6c-4d27-bf89-427d44413eef/sale-orders/0006d7f4-607c-4327-8251-40e2a391aa6b/generate-vnpay-invoice?invoice_type=pos&auto_release=true&auto_sign=true&auto_send_tax=true "HTTP/1.1 200 OK"
+2026-03-28 22:14:51,102 - INFO - [15/79] POS invoice generated for: S02/143402
+2026-03-28 22:14:51,102 - INFO - [16/79] Skipped (already processed): S02/143403
+2026-03-28 22:14:51,589 - INFO - HTTP Request: POST https://admin.finizi.ai/api/v1/entities/d570cde5-3d6c-4d27-bf89-427d44413eef/sale-orders "HTTP/1.1 200 OK"
+2026-03-28 22:14:51,589 - INFO - [17/79] Created: S02/143404 (id=542433d8-5340-4985-932b-3181698f529f)
+2026-03-28 22:14:52,689 - INFO - HTTP Request: POST https://admin.finizi.ai/api/v1/entities/d570cde5-3d6c-4d27-bf89-427d44413eef/sale-orders/542433d8-5340-4985-932b-3181698f529f/generate-vnpay-invoice?invoice_type=pos&auto_release=true&auto_sign=true&auto_send_tax=true "HTTP/1.1 200 OK"
+2026-03-28 22:14:52,689 - INFO - [17/79] POS invoice generated for: S02/143404
+2026-03-28 22:14:53,302 - INFO - HTTP Request: POST https://admin.finizi.ai/api/v1/entities/d570cde5-3d6c-4d27-bf89-427d44413eef/sale-orders "HTTP/1.1 200 OK"
+2026-03-28 22:14:53,302 - INFO - [18/79] Created: S02/143405 (id=717bde92-33fc-4862-9b4e-23c664eef666)
+2026-03-28 22:14:54,312 - INFO - HTTP Request: POST https://admin.finizi.ai/api/v1/entities/d570cde5-3d6c-4d27-bf89-427d44413eef/sale-orders/717bde92-33fc-4862-9b4e-23c664eef666/generate-vnpay-invoice?invoice_type=pos&auto_release=true&auto_sign=true&auto_send_tax=true "HTTP/1.1 200 OK"
+2026-03-28 22:14:54,313 - INFO - [18/79] POS invoice generated for: S02/143405
+2026-03-28 22:14:54,806 - INFO - HTTP Request: POST https://admin.finizi.ai/api/v1/entities/d570cde5-3d6c-4d27-bf89-427d44413eef/sale-orders "HTTP/1.1 200 OK"
+2026-03-28 22:14:54,807 - INFO - [19/79] Created: S02/143406 (id=644c2e65-d154-4e87-835b-b9d26a806077)
+2026-03-28 22:14:55,766 - INFO - HTTP Request: POST https://admin.finizi.ai/api/v1/entities/d570cde5-3d6c-4d27-bf89-427d44413eef/sale-orders/644c2e65-d154-4e87-835b-b9d26a806077/generate-vnpay-invoice?invoice_type=pos&auto_release=true&auto_sign=true&auto_send_tax=true "HTTP/1.1 200 OK"
+2026-03-28 22:14:55,766 - INFO - [19/79] POS invoice generated for: S02/143406
+2026-03-28 22:14:56,250 - INFO - HTTP Request: POST https://admin.finizi.ai/api/v1/entities/d570cde5-3d6c-4d27-bf89-427d44413eef/sale-orders "HTTP/1.1 200 OK"
+2026-03-28 22:14:56,251 - INFO - [20/79] Created: S02/143407 (id=5dfb12c4-a3fa-4316-a46b-9ac68f47015d)
+2026-03-28 22:14:57,239 - INFO - HTTP Request: POST https://admin.finizi.ai/api/v1/entities/d570cde5-3d6c-4d27-bf89-427d44413eef/sale-orders/5dfb12c4-a3fa-4316-a46b-9ac68f47015d/generate-vnpay-invoice?invoice_type=pos&auto_release=true&auto_sign=true&auto_send_tax=true "HTTP/1.1 200 OK"

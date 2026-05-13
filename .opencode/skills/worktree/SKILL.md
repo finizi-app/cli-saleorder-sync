@@ -2,6 +2,9 @@
 name: ck:worktree
 description: "Create isolated git worktree for parallel development in monorepos."
 argument-hint: "[feature-description] OR [project] [feature]"
+metadata:
+  author: claudekit
+  version: "1.0.0"
 ---
 
 # Git Worktree
@@ -18,9 +21,14 @@ node .opencode/skills/worktree/scripts/worktree.cjs info --json
 
 Parse JSON response for: `repoType`, `baseBranch`, `projects`, `worktreeRoot`, `worktreeRootSource`.
 
-### Step 2: Detect Branch Prefix
+### Step 2: Detect Branch Naming Mode
 
-From user's description:
+**Check for exact branch name first:**
+If caller provides a pre-formed branch name (contains uppercase letters, issue tracker keys like `ABC-1234`, or explicitly says "use this exact branch name"):
+→ Use `--no-prefix` flag — skip Step 3, pass name directly as slug.
+Example: `"ND-1377-cleanup-docs"` → `--no-prefix` → branch `ND-1377-cleanup-docs`
+
+**Otherwise, detect prefix from description:**
 - "fix", "bug", "error", "issue" → `fix`
 - "refactor", "restructure", "rewrite" → `refactor`
 - "docs", "documentation", "readme" → `docs`
@@ -30,6 +38,8 @@ From user's description:
 - Default → `feat`
 
 ### Step 3: Convert to Slug
+
+**Skip if `--no-prefix` was chosen in Step 2.**
 
 "add authentication system" → `add-auth`
 "fix login bug" → `login-bug`
@@ -63,6 +73,7 @@ node .opencode/skills/worktree/scripts/worktree.cjs create "<SLUG>" --prefix <TY
 
 **Options:**
 - `--prefix` - Branch type: feat|fix|refactor|docs|test|chore|perf
+- `--no-prefix` - Skip branch prefix and preserve original case (for Jira keys, etc.)
 - `--worktree-root <path>` - Override default location (only if needed)
 - `--json` - JSON output
 - `--dry-run` - Preview

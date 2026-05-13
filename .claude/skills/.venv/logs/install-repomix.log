@@ -25,3 +25,6 @@ Requirement already satisfied: pluggy<2,>=1.5 in ./.venv/lib/python3.9/site-pack
 Requirement already satisfied: pygments>=2.7.2 in ./.venv/lib/python3.9/site-packages (from pytest>=6.2.5->pytest-mock>=3.12.0) (2.19.2)
 Requirement already satisfied: tomli>=1 in ./.venv/lib/python3.9/site-packages (from pytest>=6.2.5->pytest-mock>=3.12.0) (2.4.0)
 Requirement already satisfied: typing-extensions>=4.6.0 in ./.venv/lib/python3.9/site-packages (from exceptiongroup>=1->pytest>=6.2.5->pytest-mock>=3.12.0) (4.15.0)
+/Users/trunghuynh/dev/personal/odoo-sync/.claude/skills/install.sh: line 326: pip: command not found
+/Users/trunghuynh/dev/personal/odoo-sync/.claude/skills/install.sh: line 326: pip: command not found
+/Users/trunghuynh/dev/personal/odoo-sync/.claude/skills/install.sh: line 326: pip: command not found

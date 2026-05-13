@@ -157,6 +157,26 @@ python3 -m src.b4b_import_cli --input orders.json
 python3 -m src.b4b_import_cli --input orders.json --dry-run
 ```
 
+### Automated Daily Sync (Recommended)
+```bash
+# Quick sync - today's VNPay/VNPayQR orders → B4B → Invoices
+./sync-daily.sh
+
+# Full automation with options
+./sync-odoo-to-b4b.py                          # Today, default payment methods
+./sync-odoo-to-b4b.py --date 2026-04-01        # Specific date
+./sync-odoo-to-b4b.py --dry-run                # Preview only
+./sync-odoo-to-b4b.py --export-only            # Export, skip B4B import
+./sync-odoo-to-b4b.py --payment-methods VNPay VNPayQR Thẻ ATM  # Custom methods
+./sync-odoo-to-b4b.py --import-only --input orders.json  # Import existing file
+```
+
+**Automated Workflow:**
+1. Exports Odoo POS orders (multiple payment methods supported)
+2. Combines exports into single JSON file
+3. Imports to B4B as sale orders
+4. Generates POS invoices (auto-released, signed, tax-sent)
+
 ### Scripts (in this skill)
 ```bash
 # Update product mapping

@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/Users/trunghuynh/dev/personal/odoo-sync/src/cli.py", line 11, in <module>
+    from .importer import OdooPOSImporter
+  File "/Users/trunghuynh/dev/personal/odoo-sync/src/importer.py", line 8, in <module>
+    from .timezone_utils import date_to_utc_range, format_utc_datetime
+  File "/Users/trunghuynh/dev/personal/odoo-sync/src/timezone_utils.py", line 6, in <module>
+    import pytz
+ModuleNotFoundError: No module named 'pytz'
