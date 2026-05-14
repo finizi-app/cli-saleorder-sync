@@ -1,0 +1,38 @@
+name: Generate .env from Secrets
+
+on:
+  workflow_dispatch:
+
+jobs:
+  generate-env:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create .env from GitHub Secrets
+        run: |
+          cat > .env <<ENVEOF
+          # Auto-generated from GitHub Secrets - $(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          ODOO_URL=${{ secrets.ODOO_URL }}
+          ODOO_DB=${{ secrets.ODOO_DB }}
+          ODOO_USERNAME=${{ secrets.ODOO_USERNAME }}
+          ODOO_PASSWORD=${{ secrets.ODOO_PASSWORD }}
+          ODOO_TIMEZONE=${{ secrets.ODOO_TIMEZONE }}
+          B4B_API_URL=${{ secrets.B4B_API_URL }}
+          B4B_TOKEN=${{ secrets.B4B_TOKEN }}
+          B4B_ENTITY_ID=${{ secrets.B4B_ENTITY_ID }}
+          TZ=${{ secrets.TZ }}
+          SYNC_INTERVAL_HOURS=${{ secrets.SYNC_INTERVAL_HOURS }}
+          PAYMENT_METHODS=${{ secrets.PAYMENT_METHODS }}
+          MAX_ORDERS_PER_BATCH=${{ secrets.MAX_ORDERS_PER_BATCH }}
+          DEBUG=${{ secrets.DEBUG }}
+          DRY_RUN=${{ secrets.DRY_RUN }}
+          SKIP_EXISTING=${{ secrets.SKIP_EXISTING }}
+          GENERATE_INVOICES=${{ secrets.GENERATE_INVOICES }}
+          ENVEOF
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: env-file
+          path: .env
+          retention-days: 1
