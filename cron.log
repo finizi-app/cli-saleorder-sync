@@ -5604,3 +5604,83 @@ ModuleNotFoundError: No module named 'pytz'
     
 
 [0;31m✗ Sync failed![0m
+[0;34m
+╔════════════════════════════════════════════════════════════╗
+║  Odoo VNPay Order Sync - POS Invoice Generator            ║
+║  Extract VNPay, VNPayQR, Thẻ ATM orders and issue invoices ║
+╚════════════════════════════════════════════════════════════╝
+[0m
+2026-05-13 20:00:00,870 - INFO - 📥 Step 1: Extracting orders from Odoo...
+2026-05-13 20:00:00,931 - INFO - 🔌 Connecting to Odoo at http://localhost:8069
+2026-05-13 20:00:00,941 - WARNING - Attempt 1 failed: [Errno 61] Connection refused. Retrying in 1.0s...
+2026-05-13 20:00:02,090 - WARNING - Attempt 2 failed: [Errno 61] Connection refused. Retrying in 2.0s...
+2026-05-13 20:00:04,239 - ERROR - ❌ Extraction failed: [Errno 61] Connection refused
+2026-05-13 20:00:04,239 - ERROR - ❌ Extraction failed. Exiting.
+
+╔════════════════════════════════════════════════════════════╗
+║  Odoo VNPay Order Sync - POS Invoice Generator            ║
+║  Extract VNPay, VNPayQR, Thẻ ATM orders and issue invoices ║
+╚════════════════════════════════════════════════════════════╝
+    
+
+[0;31m✗ Sync failed![0m
+[0;34m
+╔════════════════════════════════════════════════════════════╗
+║  Odoo VNPay Order Sync - POS Invoice Generator            ║
+║  Extract VNPay, VNPayQR, Thẻ ATM orders and issue invoices ║
+╚════════════════════════════════════════════════════════════╝
+[0m
+2026-05-14 00:00:00,914 - INFO - 📥 Step 1: Extracting orders from Odoo...
+2026-05-14 00:00:00,973 - INFO - 🔌 Connecting to Odoo at http://localhost:8069
+2026-05-14 00:00:00,980 - WARNING - Attempt 1 failed: [Errno 61] Connection refused. Retrying in 1.0s...
+2026-05-14 00:00:02,055 - WARNING - Attempt 2 failed: [Errno 61] Connection refused. Retrying in 2.0s...
+2026-05-14 00:00:04,131 - ERROR - ❌ Extraction failed: [Errno 61] Connection refused
+2026-05-14 00:00:04,131 - ERROR - ❌ Extraction failed. Exiting.
+
+╔════════════════════════════════════════════════════════════╗
+║  Odoo VNPay Order Sync - POS Invoice Generator            ║
+║  Extract VNPay, VNPayQR, Thẻ ATM orders and issue invoices ║
+╚════════════════════════════════════════════════════════════╝
+    
+
+[0;31m✗ Sync failed![0m
+[0;34m
+╔════════════════════════════════════════════════════════════╗
+║  Odoo VNPay Order Sync - POS Invoice Generator            ║
+║  Extract VNPay, VNPayQR, Thẻ ATM orders and issue invoices ║
+╚════════════════════════════════════════════════════════════╝
+[0m
+2026-05-14 04:00:00,807 - INFO - 📥 Step 1: Extracting orders from Odoo...
+2026-05-14 04:00:00,866 - INFO - 🔌 Connecting to Odoo at http://localhost:8069
+2026-05-14 04:00:00,873 - WARNING - Attempt 1 failed: [Errno 61] Connection refused. Retrying in 1.0s...
+2026-05-14 04:00:02,008 - WARNING - Attempt 2 failed: [Errno 61] Connection refused. Retrying in 2.0s...
+2026-05-14 04:00:04,159 - ERROR - ❌ Extraction failed: [Errno 61] Connection refused
+2026-05-14 04:00:04,159 - ERROR - ❌ Extraction failed. Exiting.
+
+╔════════════════════════════════════════════════════════════╗
+║  Odoo VNPay Order Sync - POS Invoice Generator            ║
+║  Extract VNPay, VNPayQR, Thẻ ATM orders and issue invoices ║
+╚════════════════════════════════════════════════════════════╝
+    
+
+[0;31m✗ Sync failed![0m
+[0;34m
+╔════════════════════════════════════════════════════════════╗
+║  Odoo VNPay Order Sync - POS Invoice Generator            ║
+║  Extract VNPay, VNPayQR, Thẻ ATM orders and issue invoices ║
+╚════════════════════════════════════════════════════════════╝
+[0m
+2026-05-14 08:00:00,980 - INFO - 📥 Step 1: Extracting orders from Odoo...
+2026-05-14 08:00:01,050 - INFO - 🔌 Connecting to Odoo at http://localhost:8069
+2026-05-14 08:00:01,059 - WARNING - Attempt 1 failed: [Errno 61] Connection refused. Retrying in 1.0s...
+2026-05-14 08:00:02,195 - WARNING - Attempt 2 failed: [Errno 61] Connection refused. Retrying in 2.0s...
+2026-05-14 08:00:04,343 - ERROR - ❌ Extraction failed: [Errno 61] Connection refused
+2026-05-14 08:00:04,343 - ERROR - ❌ Extraction failed. Exiting.
+
+╔════════════════════════════════════════════════════════════╗
+║  Odoo VNPay Order Sync - POS Invoice Generator            ║
+║  Extract VNPay, VNPayQR, Thẻ ATM orders and issue invoices ║
+╚════════════════════════════════════════════════════════════╝
+    
+
+[0;31m✗ Sync failed![0m
